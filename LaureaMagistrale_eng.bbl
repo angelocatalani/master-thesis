@@ -1,0 +1,69 @@
+\begin{thebibliography}{1}
+
+\bibitem{smotepaper}
+\textsc{Bowyer, K.~W., Chawla, N.~V., Hall, L.~O., and Kegelmeyer, W.~P.}
+\newblock {SMOTE:} synthetic minority over-sampling technique.
+\newblock \emph{CoRR}, \textbf{abs/1106.1813} (2011).
+\newblock Available from: \url{http://arxiv.org/abs/1106.1813}, \href
+  {http://arxiv.org/abs/1106.1813} {\path{arXiv:1106.1813}}.
+
+\bibitem{noise}
+\textsc{Cecilia Vinzio~Maggio, A., Bonomini, M., Laciar, E., and Arini, P.}
+\newblock \emph{Quantification of Ventricular Repolarization Dispersion Using
+  Digital Processing of the Surface ECG} (2012).
+\newblock ISBN 978-953-307-923-3.
+\newblock \href {http://dx.doi.org/10.5772/23050} {\path{doi:10.5772/23050}}.
+
+\bibitem{lnlf}
+\textsc{Elhaj, F.~A., Salim, N., Harris, A.~R., Swee, T.~T., and Ahmed, T.}
+\newblock Arrhythmia recognition and classification using combined linear and
+  nonlinear features of ecg signals.
+\newblock \emph{Computer Methods and Programs in Biomedicine}, \textbf{127}
+  (2016), 52 .
+\newblock Available from:
+  \url{http://www.sciencedirect.com/science/article/pii/S0169260715301097},
+  \href {http://dx.doi.org/https://doi.org/10.1016/j.cmpb.2015.12.024}
+  {\path{doi:https://doi.org/10.1016/j.cmpb.2015.12.024}}.
+
+\bibitem{rfdwt}
+\textsc{{Emanet}, N.}
+\newblock Ecg beat classification by using discrete wavelet transform and
+  random forest algorithm.
+\newblock In \emph{2009 Fifth International Conference on Soft Computing,
+  Computing with Words and Perceptions in System Analysis, Decision and
+  Control}, pp. 1--4 (2009).
+\newblock \href {http://dx.doi.org/10.1109/ICSCCW.2009.5379457}
+  {\path{doi:10.1109/ICSCCW.2009.5379457}}.
+
+\bibitem{conf/ijcnn/HeBGL08}
+\textsc{He, H., Bai, Y., Garcia, E.~A., and Li, S.}
+\newblock Adasyn: Adaptive synthetic sampling approach for imbalanced learning.
+\newblock In \emph{IJCNN}, pp. 1322--1328. IEEE (2008).
+\newblock ISBN 978-1-4244-1821-3.
+\newblock Available from:
+  \url{http://dblp.uni-trier.de/db/conf/ijcnn/ijcnn2008.html#HeBGL08}.
+
+\bibitem{matdwt}
+\textsc{MathWorks}.
+\newblock Continuous wavelet transform and scale-based analysis.
+\newblock Available from:
+  \url{https://it.mathworks.com/help/wavelet/gs/continuous-wavelet-transform-and-scale-based-analysis.html}.
+
+\bibitem{who}
+\textsc{Organization, W.~H.}
+\newblock Cardiovascular diseases (cvds).
+\newblock Available from:
+  \url{https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)}.
+
+\bibitem{watut}
+\textsc{Taspinar, A.}
+\newblock A guide for using the wavelet transform in machine learning.
+\newblock Available from:
+  \url{http://ataspinar.com/2018/12/21/a-guide-for-using-the-wavelet-transform-in-machine-learning/}.
+
+\bibitem{ecgbook}
+\textsc{Walraven, G.}
+\newblock \emph{Basic Arrhythmias}.
+\newblock Pearson (2019).
+
+\end{thebibliography}

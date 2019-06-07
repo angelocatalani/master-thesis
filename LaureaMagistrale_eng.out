@@ -1,0 +1,40 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Document Structure}{chapter.1}% 2
+\BOOKMARK [0][-]{chapter.2}{Principles of ECG Evaluation}{}% 3
+\BOOKMARK [1][-]{section.2.1}{Heart's Anatomy }{chapter.2}% 4
+\BOOKMARK [2][-]{subsection.2.1.1}{Electrical Cell}{section.2.1}% 5
+\BOOKMARK [2][-]{subsection.2.1.2}{Heartbeat Cycle}{section.2.1}% 6
+\BOOKMARK [1][-]{section.2.2}{ECG tracing}{chapter.2}% 7
+\BOOKMARK [2][-]{subsection.2.2.1}{Heartbeat Shape}{section.2.2}% 8
+\BOOKMARK [2][-]{subsection.2.2.2}{Type of Arrhythmias}{section.2.2}% 9
+\BOOKMARK [0][-]{chapter.3}{Pre-Processing}{}% 10
+\BOOKMARK [1][-]{section.3.1}{De-Noise}{chapter.3}% 11
+\BOOKMARK [2][-]{subsection.3.1.1}{Median Filter}{section.3.1}% 12
+\BOOKMARK [2][-]{subsection.3.1.2}{Discrete Wavelet Transform}{section.3.1}% 13
+\BOOKMARK [1][-]{section.3.2}{Data Augmentation}{chapter.3}% 14
+\BOOKMARK [2][-]{subsection.3.2.1}{Smote and Adasyn}{section.3.2}% 15
+\BOOKMARK [0][-]{chapter.4}{Feature Extraction}{}% 16
+\BOOKMARK [1][-]{section.4.1}{Principal Component Analysis }{chapter.4}% 17
+\BOOKMARK [1][-]{section.4.2}{Independent Component Analysis }{chapter.4}% 18
+\BOOKMARK [1][-]{section.4.3}{High Order Statistics }{chapter.4}% 19
+\BOOKMARK [0][-]{chapter.5}{Classification Algorithms}{}% 20
+\BOOKMARK [1][-]{section.5.1}{Random Forest}{chapter.5}% 21
+\BOOKMARK [1][-]{section.5.2}{Support Vector Machine}{chapter.5}% 22
+\BOOKMARK [1][-]{section.5.3}{Neural Network}{chapter.5}% 23
+\BOOKMARK [2][-]{subsection.5.3.1}{Weighted Loss Function}{section.5.3}% 24
+\BOOKMARK [2][-]{subsection.5.3.2}{Convolutional Neural Network}{section.5.3}% 25
+\BOOKMARK [2][-]{subsection.5.3.3}{LSTM and Attention}{section.5.3}% 26
+\BOOKMARK [2][-]{subsection.5.3.4}{Neural Ordinary Differential Equations}{section.5.3}% 27
+\BOOKMARK [0][-]{chapter.6}{Dataset}{}% 28
+\BOOKMARK [0][-]{chapter.7}{Experiment}{}% 29
+\BOOKMARK [1][-]{subsection.7.0.1}{Performance Measures}{chapter.7}% 30
+\BOOKMARK [1][-]{section.7.1}{Random Forest}{chapter.7}% 31
+\BOOKMARK [2][-]{subsection.7.1.1}{Test}{section.7.1}% 32
+\BOOKMARK [1][-]{section.7.2}{Support Vector Machine}{chapter.7}% 33
+\BOOKMARK [2][-]{subsection.7.2.1}{Test}{section.7.2}% 34
+\BOOKMARK [1][-]{section.7.3}{CNN 5}{chapter.7}% 35
+\BOOKMARK [2][-]{subsection.7.3.1}{Test}{section.7.3}% 36
+\BOOKMARK [1][-]{section.7.4}{Convolutional Neural Network}{chapter.7}% 37
+\BOOKMARK [1][-]{section.7.5}{LSTM and Attention}{chapter.7}% 38
+\BOOKMARK [1][-]{section.7.6}{Neural Ordinary Differential Equations}{chapter.7}% 39
+\BOOKMARK [0][-]{chapter.8}{Future Work}{}% 40
