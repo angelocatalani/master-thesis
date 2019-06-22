@@ -9,61 +9,78 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: biblio.bib
 Warning--entry type for "matdwt" isn't style-file defined
---line 36 of file biblio.bib
+--line 143 of file biblio.bib
 Warning--entry type for "watut" isn't style-file defined
---line 42 of file biblio.bib
+--line 149 of file biblio.bib
 Warning--entry type for "who" isn't style-file defined
---line 48 of file biblio.bib
+--line 155 of file biblio.bib
+Warning--entry type for "cnnsite" isn't style-file defined
+--line 162 of file biblio.bib
+Warning--entry type for "recsite" isn't style-file defined
+--line 325 of file biblio.bib
+Warning--entry type for "lstmsite" isn't style-file defined
+--line 331 of file biblio.bib
+Warning--entry type for "cnnstackoverflow" isn't style-file defined
+--line 337 of file biblio.bib
+A bad cross reference---entry "citf"
+refers to entry "DBLP:conf/intenv/2018w", which doesn't exist
+A bad cross reference---entry "aoat"
+refers to entry "DBLP:conf/iscc/2015", which doesn't exist
 A bad cross reference---entry "conf/ijcnn/HeBGL08"
 refers to entry "conf/ijcnn/2008", which doesn't exist
-Warning--I didn't find a database entry for "5"
-Warning--I didn't find a database entry for "onf/ijcnn/HeBGL08"
-Warning--I didn't find a database entry for "2"
-Warning--I didn't find a database entry for "6"
-Warning--I didn't find a database entry for "8"
-Warning--I didn't find a database entry for "9"
+Warning--I didn't find a database entry for "DBLP:conf/intenv/2018w"
+Warning--I didn't find a database entry for "DBLP:conf/iscc/2015"
 Warning--I didn't find a database entry for "conf/ijcnn/2008"
+Name 1 in "WILDML, Artificial Intelligence, Deep Learning, and NLP,DENNY BRITZ" has a comma at the end for entry recsite
+while executing---line 1738 of file sapthesis.bst
+Warning--to sort, need author or key in aamistd
+Warning--empty author in aamistd
+Warning--empty year in aamistd
+Warning--empty journal in bah
 Warning--empty chapter and pages in noise
 Warning--missing publisher in noise
-You've used 9 entries,
+Warning--missing publisher in psy
+Name 1 in "WILDML, Artificial Intelligence, Deep Learning, and NLP,DENNY BRITZ" has a comma at the end for entry recsite
+while executing---line 1770 of file sapthesis.bst
+You've used 37 entries,
             3472 wiz_defined-function locations,
-            757 strings with 7443 characters,
-and the built_in function-call counts, 4765 in all, are:
-= -- 423
-> -- 158
-< -- 2
-+ -- 80
-- -- 44
-* -- 250
-:= -- 594
-add.period$ -- 34
-call.type$ -- 9
-change.case$ -- 51
+            920 strings with 13131 characters,
+and the built_in function-call counts, 20764 in all, are:
+= -- 1883
+> -- 767
+< -- 11
++ -- 386
+- -- 213
+* -- 1197
+:= -- 2501
+add.period$ -- 137
+call.type$ -- 37
+change.case$ -- 229
 chr.to.int$ -- 0
-cite$ -- 11
-duplicate$ -- 310
-empty$ -- 450
-format.name$ -- 48
-if$ -- 1160
+cite$ -- 44
+duplicate$ -- 1346
+empty$ -- 1839
+format.name$ -- 237
+if$ -- 5011
 int.to.chr$ -- 0
-int.to.str$ -- 9
-missing$ -- 70
-newline$ -- 54
-num.names$ -- 18
-pop$ -- 202
+int.to.str$ -- 37
+missing$ -- 310
+newline$ -- 211
+num.names$ -- 73
+pop$ -- 855
 preamble$ -- 1
-purify$ -- 40
+purify$ -- 177
 quote$ -- 0
-skip$ -- 286
+skip$ -- 1202
 stack$ -- 0
-substring$ -- 104
-swap$ -- 182
-text.length$ -- 2
+substring$ -- 490
+swap$ -- 830
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 32
-warning$ -- 2
-while$ -- 23
-width$ -- 10
-write$ -- 106
-(There was 1 error message)
+type$ -- 142
+warning$ -- 7
+while$ -- 101
+width$ -- 39
+write$ -- 440
+(There were 5 error messages)

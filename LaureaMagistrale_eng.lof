@@ -1,0 +1,68 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Example of ECG trace\relax }}{5}{figure.caption.3}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Electrical cell transactions: \cite {ecgbook}\relax }}{6}{figure.caption.4}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Electrical tissue of heart: \cite {ecgbook}\relax }}{7}{figure.caption.5}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Lead II basic principles: \cite {ecgbook}\relax }}{8}{figure.caption.6}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Heartbeat in the ECG\relax }}{9}{figure.caption.7}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Examples of Arrhytmias\relax }}{10}{figure.caption.8}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Detailed classification of arrhythmias \relax }}{10}{figure.caption.9}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Example of noise in ECG recordings. (a) Baseline wander, (b) Power line interference, and (c) Muscle artifact. \cite {noise}\relax }}{12}{figure.caption.10}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Wavelet named Meyer\relax }}{13}{figure.caption.11}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Wavelet with scaling factor of 1,2,4: \cite {matdwt} \relax }}{14}{figure.caption.12}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Wavelet families: \cite {watut} \relax }}{15}{figure.caption.13}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces The blue class is underbalanced: Smote generates a new sample: $s_1$ between $x_0$ and $x_1$\relax }}{16}{figure.caption.14}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Comparison of FNN versus CNN. In CNN each layer has 3 dimension: depth, height, length.\cite {cnnsite}\relax }}{20}{figure.caption.15}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces 2 different filters are applied to the input image, resulting in 2 different feature maps \cite {cnnstackoverflow}\relax }}{21}{figure.caption.16}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Max pool with stride 2.(Left: original input, Right: pooling output) \cite {cnnsite}\relax }}{22}{figure.caption.17}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces An input vector $\boldsymbol {x}$ with three anchor vectors: $\boldsymbol {a_1,a_2,a_3}$, in the sphere S: \cite {cnninter}\relax }}{22}{figure.caption.18}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Amazon stock price in 6 months. To predict its value in August, the RNN could consider the fact in June has a positive and the same could happen in August\relax }}{24}{figure.caption.19}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces RNN general structure \cite {recsite}\relax }}{24}{figure.caption.20}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces RNN unrolled \cite {recsite}\relax }}{25}{figure.caption.21}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Forget layer in LSTM \cite {lstmsite}\relax }}{26}{figure.caption.23}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Input layer in LSTM \cite {lstmsite}\relax }}{27}{figure.caption.24}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Cell update in LSTM \cite {lstmsite}\relax }}{27}{figure.caption.25}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Hidden state and output in LSTM \cite {lstmsite}\relax }}{27}{figure.caption.26}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Graphic representation of attention in RNN ecoder-decoder: \cite {psy}\relax }}{30}{figure.caption.27}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Multi Head Attention: \cite {aiayn}\relax }}{32}{figure.caption.28}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Transformer model: \cite {aiayn}\relax }}{33}{figure.caption.29}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Graphic representation of a residual block\relax }}{34}{figure.caption.30}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Comparison of plain and residual neural networks (\cite {DBLP:journals/corr/HeZRS15})\relax }}{35}{figure.caption.31}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Comparison of FNN, ResNet, NODE\relax }}{36}{figure.caption.32}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Comparison of Euler method (orange), NODE solver (red) to approximate $\frac {\partial Y}{\partial i} = F(i)$. The latter coincides with the NODE solution \relax }}{36}{figure.caption.33}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces AAMI 5 categories of heartbeats (\cite {aamistd})\relax }}{38}{figure.caption.34}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces A fragment of ECG before and after the median filter\relax }}{40}{figure.caption.35}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Confusion Matrix : random forest for the N,L,R,V,P classification\relax }}{41}{figure.caption.36}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Confusion Matrix : random forest without data augmentation for the N,S,V,F classification\relax }}{41}{figure.caption.37}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Confusion Matrix : random forest after data augmentation for the N,S,V,F classification\relax }}{42}{figure.caption.38}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces A fragment of ECG before and after the DWT\relax }}{43}{figure.caption.39}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Confusion Matrix : svm for the N,S,V,F classification\relax }}{44}{figure.caption.40}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Confusion Matrix : svm with adasyn for the N,S,V,F classification\relax }}{44}{figure.caption.41}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Architecture of the model in \cite {cnnfazeli}\relax }}{45}{figure.caption.42}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Confusion Matrix : cnn for the N,S,V,F classification\relax }}{46}{figure.caption.43}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Confusion Matrix : cnn with adasyn for the N,S,V,F classification\relax }}{46}{figure.caption.44}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Confusion Matrix : first Node model with weighted loss function\relax }}{48}{figure.caption.45}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Confusion Matrix : first Node model with Adasyn\relax }}{48}{figure.caption.46}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Confusion Matrix: second Node model with less parameter\relax }}{49}{figure.caption.47}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Confusion Matrix: third model with DWT denoise\relax }}{50}{figure.caption.48}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Confusion Matrix: simple model with LSTM\relax }}{52}{figure.caption.49}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Confusion Matrix: complex model with LSTM\relax }}{53}{figure.caption.50}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Confusion Matrix: third model with LSTM and 2-D input data\relax }}{53}{figure.caption.51}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Confusion Matrix: Bahdanau's attention with LSTM\relax }}{54}{figure.caption.52}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Confusion Matrix: Luong's attention with LSTM\relax }}{55}{figure.caption.53}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Confusion Matrix: Luong's attention with LSTM on the pre-processed dataset of \cite {cnnfazeli}\relax }}{55}{figure.caption.54}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Confusion Matrix: Luong's attention with LSTM/NODE model\relax }}{56}{figure.caption.55}
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Confusion Matrix: Transfomers based model \relax }}{57}{figure.caption.56}
+\contentsline {figure}{\numberline {5.24}{\ignorespaces Confusion Matrix for Test 1: Patient 222 \relax }}{58}{figure.caption.57}
+\contentsline {figure}{\numberline {5.25}{\ignorespaces Confusion Matrix for Test 1: Patient 223 \relax }}{59}{figure.caption.58}
+\contentsline {figure}{\numberline {5.26}{\ignorespaces Confusion Matrix for Test 1: Patient 233 \relax }}{59}{figure.caption.59}
+\contentsline {figure}{\numberline {5.27}{\ignorespaces Confusion Matrix for Test 2 with complete training: Patient 222\relax }}{60}{figure.caption.60}
+\contentsline {figure}{\numberline {5.28}{\ignorespaces Confusion Matrix for Test 2 with complete training: Patient 223\relax }}{60}{figure.caption.61}
+\contentsline {figure}{\numberline {5.29}{\ignorespaces Confusion Matrix for Test 2 with complete training: Patient 233\relax }}{61}{figure.caption.62}
+\contentsline {figure}{\numberline {5.30}{\ignorespaces Confusion Matrix for Test 2 with partial training: Patient 222\relax }}{61}{figure.caption.63}
+\contentsline {figure}{\numberline {5.31}{\ignorespaces Confusion Matrix for Test 2 with partial training: Patient 223\relax }}{62}{figure.caption.64}
+\contentsline {figure}{\numberline {5.32}{\ignorespaces Confusion Matrix for Test 2 with partial training: Patient 233\relax }}{62}{figure.caption.65}
+\addvspace {10\p@ }
