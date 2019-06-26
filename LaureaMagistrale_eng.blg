@@ -1,6 +1,14 @@
 This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: LaureaMagistrale_eng.aux
+White space in argument---line 204 of file LaureaMagistrale_eng.aux
+ : \citation{DBLP:
+ :                 journals/corr/abs-1806-07366}
+I'm skipping whatever remains of this command
+White space in argument---line 267 of file LaureaMagistrale_eng.aux
+ : \citation{DBLP:
+ :                 journals/corr/abs-1806-07366}
+I'm skipping whatever remains of this command
 The style file: sapthesis.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
@@ -42,45 +50,45 @@ Warning--missing publisher in noise
 Warning--missing publisher in psy
 Name 1 in "WILDML, Artificial Intelligence, Deep Learning, and NLP,DENNY BRITZ" has a comma at the end for entry recsite
 while executing---line 1770 of file sapthesis.bst
-You've used 37 entries,
+You've used 38 entries,
             3472 wiz_defined-function locations,
-            920 strings with 13131 characters,
-and the built_in function-call counts, 20764 in all, are:
-= -- 1883
-> -- 767
+            927 strings with 13283 characters,
+and the built_in function-call counts, 21175 in all, are:
+= -- 1918
+> -- 774
 < -- 11
-+ -- 386
-- -- 213
-* -- 1197
-:= -- 2501
-add.period$ -- 137
-call.type$ -- 37
-change.case$ -- 229
++ -- 389
+- -- 215
+* -- 1213
+:= -- 2554
+add.period$ -- 141
+call.type$ -- 38
+change.case$ -- 232
 chr.to.int$ -- 0
-cite$ -- 44
-duplicate$ -- 1346
-empty$ -- 1839
-format.name$ -- 237
-if$ -- 5011
+cite$ -- 45
+duplicate$ -- 1378
+empty$ -- 1887
+format.name$ -- 239
+if$ -- 5115
 int.to.chr$ -- 0
-int.to.str$ -- 37
-missing$ -- 310
-newline$ -- 211
-num.names$ -- 73
-pop$ -- 855
+int.to.str$ -- 38
+missing$ -- 318
+newline$ -- 217
+num.names$ -- 75
+pop$ -- 872
 preamble$ -- 1
-purify$ -- 177
+purify$ -- 180
 quote$ -- 0
-skip$ -- 1202
+skip$ -- 1226
 stack$ -- 0
-substring$ -- 490
-swap$ -- 830
+substring$ -- 495
+swap$ -- 847
 text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 142
+type$ -- 144
 warning$ -- 7
-while$ -- 101
-width$ -- 39
-write$ -- 440
-(There were 5 error messages)
+while$ -- 103
+width$ -- 40
+write$ -- 452
+(There were 7 error messages)

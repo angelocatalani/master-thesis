@@ -52,6 +52,13 @@ Testing and reporting performance results of cardiac rhythm and st segment
 \newblock Available from: \url{http://arxiv.org/abs/1409.0473}, \href
   {http://arxiv.org/abs/1409.0473v7} {\path{arXiv:1409.0473v7}}.
 
+\bibitem{bishop}
+\textsc{Bishop, C.~M.}
+\newblock \emph{Pattern Recognition and Machine Learning (Information Science
+  and Statistics)}.
+\newblock Springer-Verlag, Berlin, Heidelberg (2006).
+\newblock ISBN 0387310738.
+
 \bibitem{smotepaper}
 \textsc{Bowyer, K.~W., Chawla, N.~V., Hall, L.~O., and Kegelmeyer, W.~P.}
 \newblock {SMOTE:} synthetic minority over-sampling technique.

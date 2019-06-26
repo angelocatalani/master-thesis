@@ -14,46 +14,45 @@
 \BOOKMARK [1][-]{section.3.2}{Data Augmentation}{chapter.3}% 14
 \BOOKMARK [2][-]{subsection.3.2.1}{Smote and Adasyn}{section.3.2}% 15
 \BOOKMARK [0][-]{chapter.4}{Classification Algorithms}{}% 16
-\BOOKMARK [1][-]{section.4.1}{Random Forest}{chapter.4}% 17
-\BOOKMARK [1][-]{section.4.2}{Support Vector Machine}{chapter.4}% 18
-\BOOKMARK [1][-]{section.4.3}{Feed Forward Neural Network}{chapter.4}% 19
-\BOOKMARK [2][-]{subsection.4.3.1}{Activation Function}{section.4.3}% 20
-\BOOKMARK [2][-]{subsection.4.3.2}{Loss Function}{section.4.3}% 21
-\BOOKMARK [1][-]{section.4.4}{Convolutional Neural Network}{chapter.4}% 22
-\BOOKMARK [2][-]{subsection.4.4.1}{Convolutional Layer}{section.4.4}% 23
-\BOOKMARK [2][-]{subsection.4.4.2}{Pooling Layer}{section.4.4}% 24
-\BOOKMARK [2][-]{subsection.4.4.3}{Mathematical Interpretation}{section.4.4}% 25
-\BOOKMARK [1][-]{section.4.5}{Recurrent Neural Network}{chapter.4}% 26
-\BOOKMARK [2][-]{subsection.4.5.1}{Vanilla RNN}{section.4.5}% 27
-\BOOKMARK [2][-]{subsection.4.5.2}{Long Short Term Memory}{section.4.5}% 28
-\BOOKMARK [1][-]{section.4.6}{Attention}{chapter.4}% 29
-\BOOKMARK [2][-]{subsection.4.6.1}{Encoder-Decoder model}{section.4.6}% 30
-\BOOKMARK [2][-]{subsection.4.6.2}{Attention in Ecoder-Decoder}{section.4.6}% 31
-\BOOKMARK [2][-]{subsection.4.6.3}{Multiplicative and Addititive Attention}{section.4.6}% 32
-\BOOKMARK [1][-]{section.4.7}{Transformer}{chapter.4}% 33
-\BOOKMARK [2][-]{subsection.4.7.1}{Transformer's Attention}{section.4.7}% 34
-\BOOKMARK [1][-]{section.4.8}{Neural Ordinary Differential Equations}{chapter.4}% 35
-\BOOKMARK [2][-]{subsection.4.8.1}{Residual Neural Network}{section.4.8}% 36
-\BOOKMARK [2][-]{subsection.4.8.2}{NODE}{section.4.8}% 37
-\BOOKMARK [0][-]{chapter.5}{Experiment}{}% 38
-\BOOKMARK [1][-]{section.5.1}{Dataset}{chapter.5}% 39
-\BOOKMARK [2][-]{subsection.5.1.1}{Training and Test Set}{section.5.1}% 40
-\BOOKMARK [1][-]{section.5.2}{Performance Measures}{chapter.5}% 41
-\BOOKMARK [1][-]{section.5.3}{Random Forest forest}{chapter.5}% 42
-\BOOKMARK [2][-]{subsection.5.3.1}{Custom Variation}{section.5.3}% 43
-\BOOKMARK [1][-]{section.5.4}{Support Vector Machine svmnl}{chapter.5}% 44
-\BOOKMARK [1][-]{section.5.5}{Convolutional Neural Network cnnfazeli}{chapter.5}% 45
-\BOOKMARK [1][-]{section.5.6}{Neural Ordinary Differential Equations}{chapter.5}% 46
-\BOOKMARK [2][-]{subsection.5.6.1}{Test 1}{section.5.6}% 47
-\BOOKMARK [2][-]{subsection.5.6.2}{Test 2}{section.5.6}% 48
-\BOOKMARK [2][-]{subsection.5.6.3}{Test 3}{section.5.6}% 49
-\BOOKMARK [1][-]{section.5.7}{LSTM}{chapter.5}% 50
-\BOOKMARK [2][-]{subsection.5.7.1}{Test 1}{section.5.7}% 51
-\BOOKMARK [2][-]{subsection.5.7.2}{Test 2}{section.5.7}% 52
-\BOOKMARK [2][-]{subsection.5.7.3}{Test 3}{section.5.7}% 53
-\BOOKMARK [1][-]{section.5.8}{LSTM/NODE with Attention}{chapter.5}% 54
-\BOOKMARK [1][-]{section.5.9}{Transformers}{chapter.5}% 55
-\BOOKMARK [1][-]{section.5.10}{Per Patient Dataset}{chapter.5}% 56
-\BOOKMARK [2][-]{subsection.5.10.1}{Test 1}{section.5.10}% 57
-\BOOKMARK [2][-]{subsection.5.10.2}{Test 2}{section.5.10}% 58
-\BOOKMARK [0][-]{chapter.6}{Future Work}{}% 59
+\BOOKMARK [1][-]{section.4.1}{Support Vector Machine}{chapter.4}% 17
+\BOOKMARK [1][-]{section.4.2}{Large Margin Principle}{chapter.4}% 18
+\BOOKMARK [2][-]{subsection.4.2.1}{Kernel Trick}{section.4.2}% 19
+\BOOKMARK [1][-]{section.4.3}{Feedforward Neural Network}{chapter.4}% 20
+\BOOKMARK [1][-]{section.4.4}{Convolutional Neural Network}{chapter.4}% 21
+\BOOKMARK [2][-]{subsection.4.4.1}{Convolutional Layer}{section.4.4}% 22
+\BOOKMARK [2][-]{subsection.4.4.2}{Pooling Layer}{section.4.4}% 23
+\BOOKMARK [2][-]{subsection.4.4.3}{Mathematical Interpretation}{section.4.4}% 24
+\BOOKMARK [1][-]{section.4.5}{Recurrent Neural Network}{chapter.4}% 25
+\BOOKMARK [2][-]{subsection.4.5.1}{Vanilla RNN}{section.4.5}% 26
+\BOOKMARK [2][-]{subsection.4.5.2}{Long Short Term Memory}{section.4.5}% 27
+\BOOKMARK [1][-]{section.4.6}{Attention}{chapter.4}% 28
+\BOOKMARK [2][-]{subsection.4.6.1}{Encoder-Decoder model}{section.4.6}% 29
+\BOOKMARK [2][-]{subsection.4.6.2}{Attention in Encoder-Decoder}{section.4.6}% 30
+\BOOKMARK [2][-]{subsection.4.6.3}{Multiplicative and Addititive Attention}{section.4.6}% 31
+\BOOKMARK [1][-]{section.4.7}{Transformer}{chapter.4}% 32
+\BOOKMARK [2][-]{subsection.4.7.1}{Transformer's Attention}{section.4.7}% 33
+\BOOKMARK [1][-]{section.4.8}{Neural Ordinary Differential Equations}{chapter.4}% 34
+\BOOKMARK [2][-]{subsection.4.8.1}{Residual Neural Network}{section.4.8}% 35
+\BOOKMARK [2][-]{subsection.4.8.2}{NODE}{section.4.8}% 36
+\BOOKMARK [0][-]{chapter.5}{Experiment}{}% 37
+\BOOKMARK [1][-]{section.5.1}{Dataset}{chapter.5}% 38
+\BOOKMARK [2][-]{subsection.5.1.1}{Training and Test Set}{section.5.1}% 39
+\BOOKMARK [1][-]{section.5.2}{Performance Measures}{chapter.5}% 40
+\BOOKMARK [1][-]{section.5.3}{Random Forest forest}{chapter.5}% 41
+\BOOKMARK [2][-]{subsection.5.3.1}{Custom Variation}{section.5.3}% 42
+\BOOKMARK [1][-]{section.5.4}{Support Vector Machine svmnl}{chapter.5}% 43
+\BOOKMARK [1][-]{section.5.5}{Convolutional Neural Network cnnfazeli}{chapter.5}% 44
+\BOOKMARK [1][-]{section.5.6}{Neural Ordinary Differential Equations}{chapter.5}% 45
+\BOOKMARK [2][-]{subsection.5.6.1}{Test 1}{section.5.6}% 46
+\BOOKMARK [2][-]{subsection.5.6.2}{Test 2}{section.5.6}% 47
+\BOOKMARK [2][-]{subsection.5.6.3}{Test 3}{section.5.6}% 48
+\BOOKMARK [1][-]{section.5.7}{LSTM}{chapter.5}% 49
+\BOOKMARK [2][-]{subsection.5.7.1}{Test 1}{section.5.7}% 50
+\BOOKMARK [2][-]{subsection.5.7.2}{Test 2}{section.5.7}% 51
+\BOOKMARK [2][-]{subsection.5.7.3}{Test 3}{section.5.7}% 52
+\BOOKMARK [1][-]{section.5.8}{LSTM/NODE with Attention}{chapter.5}% 53
+\BOOKMARK [1][-]{section.5.9}{Transformers}{chapter.5}% 54
+\BOOKMARK [1][-]{section.5.10}{Per Patient Dataset}{chapter.5}% 55
+\BOOKMARK [2][-]{subsection.5.10.1}{Test 1}{section.5.10}% 56
+\BOOKMARK [2][-]{subsection.5.10.2}{Test 2}{section.5.10}% 57
+\BOOKMARK [0][-]{chapter.6}{Conclusions}{}% 58
