@@ -11,49 +11,50 @@
 \contentsline {section}{\numberline {3.1}De-Noise}{11}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Median Filter}{12}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Discrete Wavelet Transform}{12}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Data Augmentation}{15}{section.3.2}
+\contentsline {section}{\numberline {3.2}Data Augmentation}{14}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Smote and Adasyn}{15}{subsection.3.2.1}
-\contentsline {chapter}{\numberline {4}Classification Algorithms}{19}{chapter.4}
-\contentsline {section}{\numberline {4.1}Support Vector Machine}{19}{section.4.1}
-\contentsline {section}{\numberline {4.2}Large Margin Principle}{19}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Kernel Trick}{21}{subsection.4.2.1}
-\contentsline {section}{\numberline {4.3}Feedforward Neural Network}{22}{section.4.3}
-\contentsline {section}{\numberline {4.4}Convolutional Neural Network}{24}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Convolutional Layer}{24}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Pooling Layer}{26}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Mathematical Interpretation}{26}{subsection.4.4.3}
-\contentsline {section}{\numberline {4.5}Recurrent Neural Network}{27}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Vanilla RNN}{28}{subsection.4.5.1}
-\contentsline {subsubsection}{Vanishing Gradient Problem}{30}{section*.25}
-\contentsline {subsection}{\numberline {4.5.2}Long Short Term Memory}{30}{subsection.4.5.2}
-\contentsline {section}{\numberline {4.6}Attention}{33}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Encoder-Decoder model}{33}{subsection.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}Attention in Encoder-Decoder}{34}{subsection.4.6.2}
-\contentsline {subsection}{\numberline {4.6.3}Multiplicative and Addititive Attention}{35}{subsection.4.6.3}
-\contentsline {section}{\numberline {4.7}Transformer}{35}{section.4.7}
-\contentsline {subsection}{\numberline {4.7.1}Transformer's Attention}{35}{subsection.4.7.1}
-\contentsline {section}{\numberline {4.8}Neural Ordinary Differential Equations}{37}{section.4.8}
-\contentsline {subsection}{\numberline {4.8.1}Residual Neural Network}{37}{subsection.4.8.1}
-\contentsline {subsection}{\numberline {4.8.2}NODE}{39}{subsection.4.8.2}
-\contentsline {chapter}{\numberline {5}Experiment}{43}{chapter.5}
-\contentsline {section}{\numberline {5.1}Dataset}{43}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Training and Test Set}{44}{subsection.5.1.1}
-\contentsline {section}{\numberline {5.2}Performance Measures}{45}{section.5.2}
-\contentsline {section}{\numberline {5.3}Random Forest \cite {forest}}{45}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Custom Variation}{47}{subsection.5.3.1}
-\contentsline {section}{\numberline {5.4}Support Vector Machine \cite {svmnl}}{48}{section.5.4}
-\contentsline {section}{\numberline {5.5}Convolutional Neural Network \cite {cnnfazeli}}{50}{section.5.5}
-\contentsline {section}{\numberline {5.6}Neural Ordinary Differential Equations}{53}{section.5.6}
-\contentsline {subsection}{\numberline {5.6.1}Test 1}{53}{subsection.5.6.1}
-\contentsline {subsection}{\numberline {5.6.2}Test 2}{55}{subsection.5.6.2}
-\contentsline {subsection}{\numberline {5.6.3}Test 3}{55}{subsection.5.6.3}
-\contentsline {section}{\numberline {5.7}LSTM}{56}{section.5.7}
-\contentsline {subsection}{\numberline {5.7.1}Test 1}{57}{subsection.5.7.1}
-\contentsline {subsection}{\numberline {5.7.2}Test 2}{58}{subsection.5.7.2}
-\contentsline {subsection}{\numberline {5.7.3}Test 3}{59}{subsection.5.7.3}
-\contentsline {section}{\numberline {5.8}LSTM/NODE with Attention}{60}{section.5.8}
-\contentsline {section}{\numberline {5.9}Transformers}{62}{section.5.9}
-\contentsline {section}{\numberline {5.10}Per Patient Dataset}{64}{section.5.10}
-\contentsline {subsection}{\numberline {5.10.1}Test 1}{64}{subsection.5.10.1}
-\contentsline {subsection}{\numberline {5.10.2}Test 2}{66}{subsection.5.10.2}
-\contentsline {chapter}{\numberline {6}Conclusions}{71}{chapter.6}
+\contentsline {chapter}{\numberline {4}Classification Algorithms}{17}{chapter.4}
+\contentsline {section}{\numberline {4.1}Support Vector Machine}{17}{section.4.1}
+\contentsline {section}{\numberline {4.2}Large Margin Principle}{17}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Kernel Trick}{19}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}Feedforward Neural Network}{20}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Weighted Loss Function}{21}{subsection.4.3.1}
+\contentsline {section}{\numberline {4.4}Convolutional Neural Network}{22}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Convolutional Layer}{23}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Pooling Layer}{24}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Mathematical Interpretation}{24}{subsection.4.4.3}
+\contentsline {section}{\numberline {4.5}Recurrent Neural Network}{26}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Vanilla RNN}{27}{subsection.4.5.1}
+\contentsline {subsubsection}{Vanishing Gradient Problem}{28}{section*.25}
+\contentsline {subsection}{\numberline {4.5.2}Long Short Term Memory}{28}{subsection.4.5.2}
+\contentsline {section}{\numberline {4.6}Attention}{31}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Encoder-Decoder model}{31}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Attention in Encoder-Decoder}{32}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}Multiplicative and Addititive Attention}{33}{subsection.4.6.3}
+\contentsline {section}{\numberline {4.7}Transformer}{33}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Transformer's Attention}{34}{subsection.4.7.1}
+\contentsline {section}{\numberline {4.8}Neural Ordinary Differential Equations}{35}{section.4.8}
+\contentsline {subsection}{\numberline {4.8.1}Residual Neural Network}{35}{subsection.4.8.1}
+\contentsline {subsection}{\numberline {4.8.2}NODE}{37}{subsection.4.8.2}
+\contentsline {chapter}{\numberline {5}Experiment}{41}{chapter.5}
+\contentsline {section}{\numberline {5.1}Dataset}{41}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Training and Test Set}{42}{subsection.5.1.1}
+\contentsline {section}{\numberline {5.2}Performance Measures}{43}{section.5.2}
+\contentsline {section}{\numberline {5.3}Random Forest \cite {forest}}{43}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Custom Variation}{44}{subsection.5.3.1}
+\contentsline {section}{\numberline {5.4}Support Vector Machine \cite {svmnl}}{46}{section.5.4}
+\contentsline {section}{\numberline {5.5}Convolutional Neural Network \cite {cnnfazeli}}{47}{section.5.5}
+\contentsline {section}{\numberline {5.6}Neural Ordinary Differential Equations}{50}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Test 1}{51}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Test 2}{53}{subsection.5.6.2}
+\contentsline {subsection}{\numberline {5.6.3}Test 3}{53}{subsection.5.6.3}
+\contentsline {section}{\numberline {5.7}LSTM}{53}{section.5.7}
+\contentsline {subsection}{\numberline {5.7.1}Test 1}{55}{subsection.5.7.1}
+\contentsline {subsection}{\numberline {5.7.2}Test 2}{55}{subsection.5.7.2}
+\contentsline {subsection}{\numberline {5.7.3}Test 3}{56}{subsection.5.7.3}
+\contentsline {section}{\numberline {5.8}LSTM/NODE with Attention}{57}{section.5.8}
+\contentsline {section}{\numberline {5.9}Transformers}{59}{section.5.9}
+\contentsline {section}{\numberline {5.10}Per Patient Dataset}{60}{section.5.10}
+\contentsline {subsection}{\numberline {5.10.1}Test 1}{60}{subsection.5.10.1}
+\contentsline {subsection}{\numberline {5.10.2}Test 2}{62}{subsection.5.10.2}
+\contentsline {chapter}{\numberline {6}Conclusions}{67}{chapter.6}
