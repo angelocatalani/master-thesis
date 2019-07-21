@@ -53,7 +53,8 @@
 \BOOKMARK [2][-]{subsection.5.7.3}{Test 3}{section.5.7}% 53
 \BOOKMARK [1][-]{section.5.8}{LSTM/NODE with Attention}{chapter.5}% 54
 \BOOKMARK [1][-]{section.5.9}{Transformers}{chapter.5}% 55
-\BOOKMARK [1][-]{section.5.10}{Per Patient Dataset}{chapter.5}% 56
-\BOOKMARK [2][-]{subsection.5.10.1}{Test 1}{section.5.10}% 57
-\BOOKMARK [2][-]{subsection.5.10.2}{Test 2}{section.5.10}% 58
-\BOOKMARK [0][-]{chapter.6}{Conclusions}{}% 59
+\BOOKMARK [1][-]{section.5.10}{Results}{chapter.5}% 56
+\BOOKMARK [1][-]{section.5.11}{Per Patient Dataset}{chapter.5}% 57
+\BOOKMARK [2][-]{subsection.5.11.1}{Test 1}{section.5.11}% 58
+\BOOKMARK [2][-]{subsection.5.11.2}{Test 2}{section.5.11}% 59
+\BOOKMARK [0][-]{chapter.6}{Conclusions}{}% 60

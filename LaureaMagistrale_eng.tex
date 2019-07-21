@@ -27,10 +27,16 @@
 \coadvisor{Prof. Ioannis Chatzigiannakis}
 \authoremail{catalaniangelo@gmail.com}
 
-\examdate{15 July 2019}
-\examiner{Prof. Nome Cognome}
-\examiner{Prof. Nome Cognome}
-\examiner{Dr. Nome Cognome}
+\examdate{22 July 2019}
+\examiner{Prof. Fiora Pirri}
+\examiner{Prof. Aris Anagnostopoulos}
+\examiner{Prof. Febo Cincotti}
+\examiner{Prof. Pierangelo Di Sanzo}
+\examiner{Prof. Umberto Nanni}
+\examiner{Prof. Alessandro Pellegrini}
+\examiner{Prof. Aurelio Uncini}
+
+
 \versiondate{\today}
 
 
@@ -249,7 +255,7 @@ In the end, a new point is randomly positioned in the segment whose extremities 
 \begin{enumerate}
 \item $d = \frac{m_s}{m_l} \in [0,1]$ is a measurement of class imbalance. We define a threshold value: $d_{th}$ as limit to the maximum class unbalance: if $d_i\le d_{th}$ the algorithm terminates.
 \item $G=(m_l - m_s)\cdot \beta$, where $\beta \in [0,1]$. $G$ is the total number of new samples to generate. $\beta$ is user defined, for example if $\beta=1$, the resulting dataset is completely balanced.
-\item $r_i = \frac{\Delta_i}{K} \; we \in \{1,\dots,m_{s}\}$, where:
+\item $r_i = \frac{\Delta_i}{K} \; i \in \{1,\dots,m_{s}\}$, where:
 \begin{enumerate}
 \item  $\Delta_i$ is the number of the $K$ closest neighbors to $x_i$, belonging to the other class: this is different from Smote where we consider only the samples of the same class as neighbors
 \item $r_i \in [0,1]$ and it indicates how $x_i$ is isolated from the rest of points belonging to the same class
@@ -349,10 +355,13 @@ In this section we will talk about weighted loss function. This technique can be
 \item Mean Squared Error (MSE): $\mathcal{L}=\frac{1}{N}\sum_{i}^{N}(y_i-\hat{y_i})^2$. It is used for regression.
 \item Cross Entropy : $\frac{1}{n}\sum_{i}^{N}\left(y_i\cdot log(\hat{y}_i) + (1-y_i)\cdot log(1-\hat{y}_i)\right)$. It is used for binary classification
 \end{enumerate}
-The above loss formulas consider each element equally: the error due to a given sample: $L(y_i,f(x_i,\theta)$ accounts the same of all the others. When we have overbalanced dataset, we could leverage the possibility to give greater weights to low represented classes so that we implicitly assign them more importance. In this way the loss function becomes: $\mathcal{L}(\theta)=\frac{1}{N}\sum_{i}^{N}w_i\cdot L(y_i,f(x_i,\theta))$ where $w_i$ is the weight associated to $x_i$. If we set a high value of $w_i$, the neural networks will train its parameters to profoundly capture the features of $x_i$. There are several ways to set that weights and the best approach we have found is basically trial and error. We have initially assigned to all the samples of class: $C_j$, a weight calculated as: $\frac{\left|x_i\in C_j\right|}{N}$ and then increased until an optimal value was reached.
-
-
-
+The above loss formulas consider each element equally: the error due to a given sample: $L(y_i,f(x_i,\theta)$ accounts the same of all the others. When we have overbalanced dataset, we could leverage the possibility to give greater weights to low represented classes so that we implicitly assign them more importance. In this way the loss function becomes: $\mathcal{L}(\theta)=\frac{1}{N}\sum_{i}^{N}w_i\cdot L(y_i,f(x_i,\theta))$ where $w_i$ is the weight associated to $x_i$. If we set a high value of $w_i$, the neural networks will train its parameters to profoundly capture the features of $x_i$. There are several ways to set that weights and the best approach we have found is basically trial and error. We have initially assigned to all the samples of class: $C_j$, a weight calculated as: $\frac{\left|x_i\in C^{max}\right|}{\left|x_i\in C_j\right|}$, and then increased it. In the end the best configuration was:
+\begin{enumerate}
+\item Class N: 1. Initial value: 1 (most populated class)
+\item Class S: 40. Initial value: 32
+\item Class V: 20. Initial value: 12
+\item Class F: 100. Initial value: 112 
+\end{enumerate}
 
 
 \section{Convolutional Neural Network}
@@ -626,8 +635,8 @@ Patient 233:
 In a classification problem with N classes: ${C_1,\dots,C_n}$, it is possible to determine the quality of the classifier, in terms of $C_{i,j}$, that is the number of dataset's samples belonging to $C_i$ , but predicted as $C_j$, where $1 \leq i,j \leq n$. In particular given a generic class: $C_i$, we define:
 \begin{enumerate}
 \item True Positive (TP): $C_{i,i}$%$\sum_{i=1}^{n}$
-\item False Positive (FP): $\sum_{j\neq we}C_{j,i}$
-\item False Negative (FN): $\sum_{j\neq we}C_{i,j}$
+\item False Positive (FP): $\sum_{j\neq i}C_{j,i}$
+\item False Negative (FN): $\sum_{j\neq i}C_{i,j}$
 \end{enumerate}
 %A confusion matrix: $M$, contains the described parameters: it is $n\cdot n$ and $M_{i,j}=C_{i,j}$
 The performance metrics we have used are:
@@ -636,6 +645,12 @@ The performance metrics we have used are:
 \item Recall: $\frac{TP}{TP+FN}$
 \item F-score: $2\cdot \frac{Precision\cdot Recall}{Precision+Recall}$
 \end{enumerate}
+As global measure for a given algorithm we have considered:
+\begin{enumerate}
+\item Accuracy: $\frac{Correct \; Predictions}{All \; Predictions}$
+\item Average Recall: $\frac{\sum_{i}^{n}Recall_i}{n}$
+\end{enumerate}
+
 It is significant to note the trade-off between precision and recall: if the model predicts all the samples as belonging to a given class it will reach a recall of 100\% because no sample will be classified with a different label. Consequently, the false negative will be zero. On the other hand in this situation, the number of wrongly classified samples ($FP$) will be high and consequently the precision low. In order to plot precision and recall for all the classes, it is possible to use the confusion matrix: $M$: it is $n\cdot n$ and $M_{i,j}=C_{i,j}$
 
 
@@ -705,6 +720,7 @@ We have tested the same approach applying data augmentation with ADASYN, obtaini
     \label{fig:svc3}
 \end{figure}
 \section{Convolutional Neural Network  \cite{cnnfazeli}}
+\label{sec:cnnfazelisection}
 This paper (\cite{cnnfazeli}) describes an effective approach to solve two problems: arrhythmia classification and myocardial infarction. In particular, the idea is to use a neural network to solve the first task and then apply transfer learning for the latter. Since we are only interested in arrhythmia detection, we will discuss only the first part. The main difference of this solution with respect to the previous two is that it does require a simple pre-processing phase without any de-noise procedure. Specifically, the latter consists of a first resample of the signal from 360Hz to 125Hz. Then, in order to find the R-peaks, it considers a temporal window of 10 seconds, normalizes it and finally detects the R peaks as local maximum points above a threshold of 0.9. Secondly, it considers $T$ as the median of the RR peak distances in time for a given signal. Finally, each beat consists of R peak and the samples in the temporal segment of $1.2 \cdot T$. Since $T$ is specific for a given signal, to make all beats of the same size, shorter beats are padded with zeros.\\\\The the whole pre-processed dataset is available on Kaggle by the same author's paper, so we have not directly implemented this pre-processing. The algorithm for the classification is a neural network with one-dimensional convolutional layers each with 32 kernels of size 5. In addition to this, it has max polling layers of size: 5 and stride: 2. The latter layers are arranged in a residual block the is repeated five times. In the end, there are two fully connected layers followed by a $softmax$ (Fig.~\ref{fig:svc2}).(Fig.~\ref{fig:arch-cnn}).
 \begin{figure}  \centering
     \includegraphics[width=50mm,scale=0.7]{arch-cnn}
@@ -731,6 +747,7 @@ We have tested the same approach using ADASYN as data augmentation (Fig.~\ref{fi
 \end{figure}
 This approach has the benefit of having a simple pre-processing phase and it is conventional in the use of a neural network model that can be deployed in an embedded device with the support of libraries such as Tensorflow-Lite and sensor. Finally, it has a better performance than the approach with Random Forest and Supports Vector Machine.
 \section{Neural Ordinary Differential Equations}
+\label{sec:nodesection}
 In this section we will demonstrate the application of NODE (\cite{DBLP:journals/corr/abs-1806-07366}) for arrhythmia detection: this is an innovative approach never used before in the literature. In order to implement it, we have adopted the PyTorch library provided by the same authors. The latter not only provides (ODE) solvers but also the optimized back-propagation using the adjoint method. In addition to this, it has fully GPU support. We have conducted several tests, but all of them have in common the following choice:
 \begin{enumerate}
 \item the ODE solver has a tolerance of 0.001
@@ -859,6 +876,7 @@ In Fig.~\ref{fig:lstmt3} we have plotted the results that are better than all th
 
 
 \section{LSTM/NODE with Attention}
+\label{sec:lstmsection}
 In this section, we will describe how powerful is the application of Attention on the previous models. Since our task is a classification problem, namely sequence to one, the decoder state is not present. To compute the attention score we have taken into consideration the hidden states of the LSTM and as decoder state the last of one, that generally is the value which the decoder state is initialized. Finally, in the following test, we have considered 2 channels for the ECG recording. Initially, we have adopted Bahdanau's attention on LSTM. The neural network is the following:
 \begin{enumerate}
 \item LSTM layer with 256 cells and \texttt{return\_sequences} set to \texttt{True}: the output's shape is \texttt{(batch\_size, timesteps, 256)} 
@@ -909,6 +927,7 @@ The results are shown below (Fig.~\ref{fig:lstmat3}).
     \label{fig:lstmat3}
 \end{figure}
 \section{Transformers}
+\label{sec:trasfsection}
 We have adopted only the encoder part of the Transformers without the decoder because our task is a sequence to one while the latter is used for the sequence to many problems. The first block is made of:
 \begin{enumerate}
 \item LSTM layer with 128 cells and \texttt{return\_sequences} set to \texttt{True}
@@ -929,12 +948,77 @@ The results are shown below (Fig.~\ref{fig:transf}).
     \label{fig:transf}
 \end{figure}
 
-\begin{figure}  \centering
-    \includegraphics[width=100mm,scale=0.7]{fscore}
-    \caption{F score for the best models }
-    \label{fig:fscore}
-\end{figure}
+%\begin{figure}  \centering
+%    \includegraphics[width=100mm,scale=0.7]{fscore}
+%    \caption{F score for the best models }
+%    \label{fig:fscore}
+%\end{figure}
+\section{Results}
+In tables: ~\ref{tab:t1},~\ref{tab:t2},~\ref{tab:t3},~\ref{tab:t4} we describe the performance of the best models we have implemented in terms of precision, recall and F-score:
+\begin{enumerate}
+\item CNN (~\ref{sec:cnnfazelisection})
+\item NODEA (~\ref{sec:lstmsection}): Neural ODE with Luong's attention
+\item LSTMA (~\ref{sec:lstmsection}): LSTM with Luong's attention
+\item TB (~\ref{sec:trasfsection}): Transformer based model
+\end{enumerate}
 
+\begin{table}[H]
+\centering
+\begin{tabular}{l|l|l|l|l|l|}
+\cline{2-6}
+                        & CNN   & NODE & LSTMA & NODEA & TB\\ \hline
+\multicolumn{1}{|l|}{N} & 83.23 & 91.64      & 95.53               & 89.85                      & 88.87            \\ \hline
+\multicolumn{1}{|l|}{S} & 99.16 & 93.93      & 97.46               & 98.91                      & 95.53            \\ \hline
+\multicolumn{1}{|l|}{V} & 94.38 & 92.29      & 97.65               & 97.02                      & 97.26            \\ \hline
+\multicolumn{1}{|l|}{F} & 97.75 & 88.49      & 94.19               & 97.28                      & 87.54            \\ \hline
+\end{tabular}
+\caption{Precision with all the dataset}
+\label{tab:t1}
+\end{table}
+
+
+\begin{table}[H]
+\centering
+\begin{tabular}{l|l|l|l|l|l|}
+\cline{2-6}
+                        & CNN   & NODE & LSTMA & NODEA & TB\\ \hline
+\multicolumn{1}{|l|}{N} & 99.23 & 93.88      & 98.11               & 99.44                      & 95.00            \\ \hline
+\multicolumn{1}{|l|}{S} & 83.36 & 92.88      & 94.11               & 90.88                      & 90.44            \\ \hline
+\multicolumn{1}{|l|}{V} & 98.18 & 95.77      & 97.22               & 97.66                      & 95.00            \\ \hline
+\multicolumn{1}{|l|}{F} & 72.42 & 89.20      & 90.80               & 86.00                      & 90.00            \\ \hline
+\end{tabular}
+\caption{Recall with all the dataset}
+\label{tab:t2}
+\end{table}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{l|l|l|l|l|l|}
+\cline{2-6}
+
+                        & CNN   & NODE & LSTMA & NODEA & TB\\ \hline
+\multicolumn{1}{|l|}{N} & 90.23 & 92.74      & 95.76               & 94.40                      & 91.83            \\ \hline
+\multicolumn{1}{|l|}{S} & 90.36 & 93.30      & 95.75               & 94.72                      & 92.91            \\ \hline
+\multicolumn{1}{|l|}{V} & 95.18 & 96.52      & 97.43               & 97.33                      & 96.11            \\ \hline
+\multicolumn{1}{|l|}{F} & 82.42 & 88.44      & 92.46               & 91.29                      & 88.75            \\ \hline
+\end{tabular}
+\caption{F score with all the dataset}
+\label{tab:t3}
+\end{table}
+
+
+\begin{table}[H]
+\centering
+\begin{tabular}{l|l|l|l|l|l|}
+\cline{2-6}
+
+                        & CNN   & NODE & LSTMA & NODEA & TB\\ \hline
+\multicolumn{1}{|l|}{Accuracy} & 91.66 & 93.76      & 96.00               & 95.15                     & 93.18            \\ \hline
+\multicolumn{1}{|l|}{Avg Recall} & 88.29 & 92.93      & 95.06               & 93.49                      & 92.61            \\ \hline
+\end{tabular}
+\caption{Overall precision and accuracy of the best models}
+\label{tab:t4}
+\end{table}
 
 \section{Per Patient Dataset}
 In this part, we wanted to check the robustness of the previous models in a more arduous scenario. As we explained in the section about the Dataset Configuration, we have removed from the whole dataset: $D$ the following patient's data: $D_{222}$,$D_{223}$,$D_{233}$. We have re-trained the LSTM with Loung's attention: $M$ on the remaining data: $D_{train}$, because it is one the best model we have implemented. Then we have built a personalized classifier for each of them using two different ways of transfer learning described respectively in Test 1 and Test 2
@@ -1000,6 +1084,9 @@ Fig.~\ref{fig:patient222-transfer-learn-nontrainable}, Fig.~\ref{fig:patient223-
     \caption{Confusion Matrix for Test 2 with partial training: Patient 233}
     \label{fig:patient233-transfer-learn-nontrainable}
 \end{figure}
+
+
+
 \chapter{Conclusions}
 When we started working on this project, we considered the problem of arrhythmia detection as a simple classification task with only four classes. This is why at the beginning, we have approached it with elementary algorithms such as Random Forest. Secondly, we realized the results were not good and we thought the problem was due to the noise in the signal and a more accurate feature selection, would have provided better accuracy. In fact, we experimented with Discrete Wavelet Transform since it was a popular choice in the literature. However, we did not get a satisfactory outcome and decided to move to more complex models while keeping the pre-processing step. The reasons for this failure are due to the fact Random Forest applies the begging technique: it trains multiple decision trees on random partitions of the dataset and it computes the most probable outcome on the basis of each single decision tree's output. In our case, we have an overbalancing problem so that without any form of data augmentation, the various decision's trees will fail to learn the relevant features of rare classes. When we perform data augmentation, the synthetic samples fail to perfectly represent the low represented classes making weak classifiers for such labels. Even if we perform a pre-processing step to remove noise, the Random Forest can not generalize from synthetic samples.\\\\At this point, we searched in the literature and the model described in \cite{svmnl} was exactly what we intended to implement: Support Vector Machine with a complex pre-processing. The results were slightly better than the first model but still, there was a lot to improve. The reasons for such low performance are probably the same as random forest since data augmentation is not able to create new authentic samples.\\\\At this moment we realized the difficulties of the arrhythmia detection since it was challenging to implement an algorithm able to generalize the relevant features of each beat even for low represented class. We decided to use Neural Networks that are acknowledged to outperform the previous algorithms for complex tasks. The best model we found in the literature was \cite{cnnfazeli} and it effectively provided acceptable results. The results were good both with data augmentation and better with weighted loss. In general, the generalization power of Neural Networks together with the use of a weighted loss function was the key for outstanding models. In fact, a weighted loss function does not have the problem to create synthetic data that may not represent the original class. Moreover, a deep neural network approach does not require any pre-processing so that it exempts us from performing a complex operation such as DWT or PCA, which is exhausting for an embedded device with low computational power and autonomy. The main reason for this advantage is due to the neural networks' ability to autonomous learn distinctive features through the various layers, from the most general to the most specific. For example, we would expect the initial layers of that CNN to capture a beat as a simple smooth curve, and as we consider deeper layers, they capture more peculiarities such as the QRS complex, ST segment and so on. In this way, an optimal choice of the neural network's depth with its related operations can build a classifier able to detect only the relevant features without incurring into overfitting.\\\\Secondly, we have used the NODE and LSTM. The first one was a novel structure with comparable results to \cite{cnnfazeli}. The second model born by the idea that the ECG signal could be considered as temporal time series with sequences made of single samples rather than multiple beats. The significance of this intuition was justified by the respectable outcome. Then, we added to the previous models an attention mechanism following the trend in Natural Language Processing. Here we wanted to capture the fact that with respect to a particular arrhythmia, the model should pay more attention to some portion of the beat than others and in general, there are samples with low information content that must be ignored and others to give more weight. For example, we would expect samples in the QRS complex to have a higher attention weight than samples in the beat's prologue. In the end, the best model we have implemented was LSTM with Luong's Attention.\\\\Finally, we used a patient-centric approach. In particular, we wanted to implement a model personalized for the end user, since our final goal was to implement an arrhythmia detection module on a wearable device. The approach we used was Transfer Learning and the outcome was good but there is a large margin of improvement. Initially, we used a pre-trained neural network as a feature extractor for the single and then SVM. The idea here is that the layers of a neural network learn features from the most general to the most specific, and in this way, the one before the last layer can be a good generalization.\\\\As a second experiment, we first tuned all the model on a single patient and then only the last layers. Generally, the second technique is more popular because as we said before the initial layers of a neural network capture general features and only the final layers are focused on the peculiarities of the single patient. This is why also for our case, the latter approach tends to have a better score. However, for the evaluation we need to take into consideration some classes in the test data are low populated and statistically insignificant.\\\\Better results can be obtained with more irregular beats for each patient, but this is not a good practice to solve the issue because in practice a user will experience for a long time regular beats, and the module still needs to find arrhythmias. In general, the confusion matrices in this case, show worse results than the previous situations with all the dataset. This means the latter model suffers from some sort of overfitting because it does not learn to generalize arrhythmias for completely new patients. However, the only solution to solve this issue is to acquire more data.\\\\This work could be further developed by implementing the provided algorithms on embedded devices. The models we have presented can be applied in a medical context to support cardiologists or for personal use. In addition to this, with the advent of smart cars the proposed algorithms with small variations, can be used to monitor the state of the driver and detect dangerous situations such as tiredness or altered states.
 

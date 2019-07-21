@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.28)  3 JUL 2019 00:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.28)  11 JUL 2019 14:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -521,28 +521,28 @@ File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 (./LaureaMagistrale_eng.aux)
 \openout1 = `LaureaMagistrale_eng.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 44.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 38.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 44.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -618,8 +618,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \textsubscript on input line 38.
-LaTeX Info: Redefining \microtypecontext on input line 38.
+LaTeX Info: Redefining \textsubscript on input line 44.
+LaTeX Info: Redefining \microtypecontext on input line 44.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -635,7 +635,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 \AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring OFF on input line 38.
+Package hyperref Info: Link coloring OFF on input line 44.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -645,15 +645,15 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count136
 )
-LaTeX Info: Redefining \ref on input line 38.
-LaTeX Info: Redefining \pageref on input line 38.
-LaTeX Info: Redefining \nameref on input line 38.
+LaTeX Info: Redefining \ref on input line 44.
+LaTeX Info: Redefining \pageref on input line 44.
+LaTeX Info: Redefining \nameref on input line 44.
 
 (./LaureaMagistrale_eng.out) (./LaureaMagistrale_eng.out)
 \@outlinefile=\write3
 \openout3 = `LaureaMagistrale_eng.out'.
 
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 43.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 49.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -663,11 +663,11 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-<sapienza-MLred-pos.pdf, id=241, 288.07625pt x 89.33376pt>
+<sapienza-MLred-pos.pdf, id=245, 288.07625pt x 89.33376pt>
 File: sapienza-MLred-pos.pdf Graphic file (type pdf)
 
 <use sapienza-MLred-pos.pdf>
-Package pdftex.def Info: sapienza-MLred-pos.pdf used on input line 43.
+Package pdftex.def Info: sapienza-MLred-pos.pdf used on input line 49.
 (pdftex.def)             Requested size: 142.26378pt x 44.11742pt.
  [1
 
@@ -675,44 +675,44 @@ Package pdftex.def Info: sapienza-MLred-pos.pdf used on input line 43.
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </usr/lo
 cal/texlive/2017/texmf-dist/tex/latex/sapthesis/sapienza-MLred-pos.pdf>]
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 43.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 49.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
 
  []
 
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 43.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 49.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 43.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 49.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 43.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 49.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 43.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 49.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 43.
+(Font)              <10> on input line 49.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 43.
+(Font)              <7> on input line 49.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 43.
+(Font)              <5> on input line 49.
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
 
  []
 
@@ -726,7 +726,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--43
 ] [5] [6
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 51--53
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
 
  []
 
@@ -746,12 +746,12 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [10]
 Chapter 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
@@ -759,27 +759,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
 
@@ -787,168 +787,168 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
 ]
 Chapter 2.
-<ecgtrace.png, id=413, 538.01pt x 108.405pt>
+<ecgtrace.png, id=418, 538.01pt x 108.405pt>
 File: ecgtrace.png Graphic file (type png)
  <use ecgtrace.png>
-Package pdftex.def Info: ecgtrace.png used on input line 102.
+Package pdftex.def Info: ecgtrace.png used on input line 108.
 (pdftex.def)             Requested size: 376.60443pt x 75.88297pt.
 
-<ecgtrans.png, id=416, 237.88875pt x 344.28625pt>
+<ecgtrans.png, id=421, 237.88875pt x 344.28625pt>
 File: ecgtrans.png Graphic file (type png)
  <use ecgtrans.png>
-Package pdftex.def Info: ecgtrans.png used on input line 110.
+Package pdftex.def Info: ecgtrans.png used on input line 116.
 (pdftex.def)             Requested size: 166.52098pt x 240.99872pt.
  [5 <./ecgtrace.png>] [6 <./ecgtrans.png>]
-<heartex.png, id=433, 541.02126pt x 375.4025pt>
+<heartex.png, id=438, 541.02126pt x 375.4025pt>
 File: heartex.png Graphic file (type png)
  <use heartex.png>
-Package pdftex.def Info: heartex.png used on input line 124.
+Package pdftex.def Info: heartex.png used on input line 130.
 (pdftex.def)             Requested size: 378.7123pt x 262.77995pt.
 
-<ruleflow.png, id=438, 568.1225pt x 599.23875pt>
+<ruleflow.png, id=443, 568.1225pt x 599.23875pt>
 File: ruleflow.png Graphic file (type png)
  <use ruleflow.png>
-Package pdftex.def Info: ruleflow.png used on input line 138.
+Package pdftex.def Info: ruleflow.png used on input line 144.
 (pdftex.def)             Requested size: 397.68303pt x 419.46426pt.
- [7 <./heartex.png>] <beatshape.png, id=453, 468.75125pt x 444.66125pt>
+ [7 <./heartex.png>] <beatshape.png, id=458, 468.75125pt x 444.66125pt>
 File: beatshape.png Graphic file (type png)
 
 <use beatshape.png>
-Package pdftex.def Info: beatshape.png used on input line 145.
+Package pdftex.def Info: beatshape.png used on input line 151.
 (pdftex.def)             Requested size: 328.12363pt x 311.26074pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--150
+Underfull \hbox (badness 10000) in paragraph at lines 149--156
 
  []
 
 [8 <./ruleflow.png>] [9 <./beatshape.png>]
-<arrhex.png, id=470, 718.685pt x 305.14pt>
+<arrhex.png, id=476, 718.685pt x 305.14pt>
 File: arrhex.png Graphic file (type png)
  <use arrhex.png>
-Package pdftex.def Info: arrhex.png used on input line 165.
+Package pdftex.def Info: arrhex.png used on input line 171.
 (pdftex.def)             Requested size: 503.07607pt x 213.59653pt.
 
-<allclass.png, id=471, 750.805pt x 184.69pt>
+<allclass.png, id=477, 750.805pt x 184.69pt>
 File: allclass.png Graphic file (type png)
  <use allclass.png>
-Package pdftex.def Info: allclass.png used on input line 171.
+Package pdftex.def Info: allclass.png used on input line 177.
 (pdftex.def)             Requested size: 525.55992pt x 129.2821pt.
 
-Overfull \hbox (30.80893pt too wide) in paragraph at lines 171--172
+Overfull \hbox (30.80893pt too wide) in paragraph at lines 177--178
  [][] 
  []
 
 [10 <./arrhex.png> <./allclass.png>]
 Chapter 3.
-<noise.png, id=488, 853.1875pt x 684.5575pt>
+<noise.png, id=493, 853.1875pt x 684.5575pt>
 File: noise.png Graphic file (type png)
  <use noise.png>
-Package pdftex.def Info: noise.png used on input line 186.
+Package pdftex.def Info: noise.png used on input line 192.
 (pdftex.def)             Requested size: 597.22719pt x 479.18698pt.
  [11
 
 ]
-<waveletexample.png, id=501, 421.575pt x 316.18124pt>
+<waveletexample.png, id=506, 421.575pt x 316.18124pt>
 File: waveletexample.png Graphic file (type png)
  <use waveletexample.png>
-Package pdftex.def Info: waveletexample.png used on input line 201.
+Package pdftex.def Info: waveletexample.png used on input line 207.
 (pdftex.def)             Requested size: 295.10048pt x 221.32535pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--206
+Underfull \hbox (badness 10000) in paragraph at lines 205--212
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--206
+Underfull \hbox (badness 10000) in paragraph at lines 205--212
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--206
+Underfull \hbox (badness 10000) in paragraph at lines 205--212
 
  []
 
-[12 <./noise.png>] <wavescale.png, id=515, 351.3125pt x 377.41pt>
+[12 <./noise.png>] <wavescale.png, id=520, 351.3125pt x 377.41pt>
 File: wavescale.png Graphic file (type png)
 
 <use wavescale.png>
-Package pdftex.def Info: wavescale.png used on input line 211.
+Package pdftex.def Info: wavescale.png used on input line 217.
 (pdftex.def)             Requested size: 245.91707pt x 264.1852pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--216
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
 
  []
 
 [13 <./waveletexample.png (PNG copy)>]
-<waveletfamilies.png, id=531, 1148.29pt x 570.13pt>
+<waveletfamilies.png, id=536, 1148.29pt x 570.13pt>
 File: waveletfamilies.png Graphic file (type png)
  <use waveletfamilies.png>
-Package pdftex.def Info: waveletfamilies.png used on input line 221.
+Package pdftex.def Info: waveletfamilies.png used on input line 227.
 (pdftex.def)             Requested size: 803.79752pt x 399.08829pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
 
  []
 
 [14 <./wavescale.png (PNG copy)>]
-<smoteex.png, id=547, 492.84125pt x 241.90375pt>
+<smoteex.png, id=552, 492.84125pt x 241.90375pt>
 File: smoteex.png Graphic file (type png)
  <use smoteex.png>
-Package pdftex.def Info: smoteex.png used on input line 244.
+Package pdftex.def Info: smoteex.png used on input line 250.
 (pdftex.def)             Requested size: 344.98651pt x 169.33147pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--249
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
 
  []
 
 [15 <./waveletfamilies.png>] [16 <./smoteex.png>]
 Chapter 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 279--280
+Underfull \hbox (badness 10000) in paragraph at lines 285--286
 
  []
 
 [17
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 296--297
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
 
  []
 
-<largevssoft.png, id=589, 581.17125pt x 272.01625pt>
+<largevssoft.png, id=594, 581.17125pt x 272.01625pt>
 File: largevssoft.png Graphic file (type png)
  <use largevssoft.png>
-Package pdftex.def Info: largevssoft.png used on input line 303.
+Package pdftex.def Info: largevssoft.png used on input line 309.
 (pdftex.def)             Requested size: 406.8171pt x 190.41006pt.
 
-<kerneltrick.png, id=593, 612.2875pt x 297.11pt>
+<kerneltrick.png, id=598, 612.2875pt x 297.11pt>
 File: kerneltrick.png Graphic file (type png)
  <use kerneltrick.png>
-Package pdftex.def Info: kerneltrick.png used on input line 317.
+Package pdftex.def Info: kerneltrick.png used on input line 323.
 (pdftex.def)             Requested size: 428.59833pt x 207.97557pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 315--321
+Underfull \hbox (badness 10000) in paragraph at lines 321--327
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 315--321
+Underfull \hbox (badness 10000) in paragraph at lines 321--327
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 315--321
+Underfull \hbox (badness 10000) in paragraph at lines 321--327
 
  []
 
-[18 <./largevssoft.png>] <fnnex.png, id=611, 331.2375pt x 224.84pt>
+[18 <./largevssoft.png>] <fnnex.png, id=617, 331.2375pt x 224.84pt>
 File: fnnex.png Graphic file (type png)
 
 <use fnnex.png>
-Package pdftex.def Info: fnnex.png used on input line 325.
+Package pdftex.def Info: fnnex.png used on input line 331.
 (pdftex.def)             Requested size: 231.86465pt x 157.38692pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--330
+Underfull \hbox (badness 10000) in paragraph at lines 329--336
 
  []
 
@@ -956,291 +956,291 @@ Underfull \hbox (badness 10000) in paragraph at lines 323--330
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19 <./kerneltrick.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 335--336
+Underfull \hbox (badness 10000) in paragraph at lines 341--342
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 335--336
+Underfull \hbox (badness 10000) in paragraph at lines 341--342
 
  []
 
-[20 <./fnnex.png>] <actfun.png, id=633, 384.43625pt x 370.38374pt>
+[20 <./fnnex.png>] <actfun.png, id=638, 384.43625pt x 370.38374pt>
 File: actfun.png Graphic file (type png)
 
 <use actfun.png>
-Package pdftex.def Info: actfun.png used on input line 342.
+Package pdftex.def Info: actfun.png used on input line 348.
 (pdftex.def)             Requested size: 269.10353pt x 259.26685pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 347--348
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
 
  []
 
-[21 <./actfun.png>] <convgen.png, id=644, 729.72626pt x 169.63374pt>
+[21 <./actfun.png>] <convgen.png, id=649, 729.72626pt x 169.63374pt>
 File: convgen.png Graphic file (type png)
 
 <use convgen.png>
-Package pdftex.def Info: convgen.png used on input line 366.
+Package pdftex.def Info: convgen.png used on input line 375.
 (pdftex.def)             Requested size: 510.8049pt x 118.7428pt.
 
-Overfull \hbox (30.8061pt too wide) in paragraph at lines 366--367
+Overfull \hbox (30.8061pt too wide) in paragraph at lines 375--376
  [][] 
  []
 
-[22] <exfilter.png, id=656, 670.505pt x 355.3275pt>
+[22] <exfilter.png, id=664, 670.505pt x 355.3275pt>
 File: exfilter.png Graphic file (type png)
  <use exfilter.png>
-Package pdftex.def Info: exfilter.png used on input line 379.
+Package pdftex.def Info: exfilter.png used on input line 388.
 (pdftex.def)             Requested size: 469.35031pt x 248.72754pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--384
+Underfull \hbox (badness 10000) in paragraph at lines 386--393
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--384
+Underfull \hbox (badness 10000) in paragraph at lines 386--393
 
  []
 
-[23 <./convgen.png>] <pool.png, id=670, 476.78125pt x 219.82124pt>
+[23 <./convgen.png>] <pool.png, id=676, 476.78125pt x 219.82124pt>
 File: pool.png Graphic file (type png)
 
 <use pool.png>
-Package pdftex.def Info: pool.png used on input line 405.
+Package pdftex.def Info: pool.png used on input line 414.
 (pdftex.def)             Requested size: 333.74458pt x 153.87381pt.
- <geocnn.png, id=675, 318.18875pt x 272.01625pt>
+ <geocnn.png, id=681, 318.18875pt x 272.01625pt>
 File: geocnn.png Graphic file (type png)
 
 <use geocnn.png>
-Package pdftex.def Info: geocnn.png used on input line 413.
+Package pdftex.def Info: geocnn.png used on input line 422.
 (pdftex.def)             Requested size: 222.73059pt x 190.41006pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 411--418
+Underfull \hbox (badness 10000) in paragraph at lines 420--427
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 411--418
+Underfull \hbox (badness 10000) in paragraph at lines 420--427
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 411--418
+Underfull \hbox (badness 10000) in paragraph at lines 420--427
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 411--418
+Underfull \hbox (badness 10000) in paragraph at lines 420--427
 
  []
 
 [24 <./exfilter.png>] [25 <./pool.png> <./geocnn.png>]
-<amzsp.png, id=706, 629.35126pt x 230.8625pt>
+<amzsp.png, id=715, 629.35126pt x 230.8625pt>
 File: amzsp.png Graphic file (type png)
  <use amzsp.png>
-Package pdftex.def Info: amzsp.png used on input line 422.
+Package pdftex.def Info: amzsp.png used on input line 431.
 (pdftex.def)             Requested size: 440.54288pt x 161.60263pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 420--427
+Underfull \hbox (badness 10000) in paragraph at lines 429--436
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 420--427
+Underfull \hbox (badness 10000) in paragraph at lines 429--436
 
  []
 
-[26 <./amzsp.png>] <rnnmod.png, id=714, 174.6525pt x 328.22626pt>
+[26] <rnnmod.png, id=722, 174.6525pt x 328.22626pt>
 File: rnnmod.png Graphic file (type png)
-
-<use rnnmod.png>
-Package pdftex.def Info: rnnmod.png used on input line 431.
+ <use rnnmod.png>
+Package pdftex.def Info: rnnmod.png used on input line 440.
 (pdftex.def)             Requested size: 52.39615pt x 98.46863pt.
- <unrolled.png, id=718, 521.95pt x 308.15125pt>
+
+<unrolled.png, id=726, 521.95pt x 308.15125pt>
 File: unrolled.png Graphic file (type png)
-
-<use unrolled.png>
-Package pdftex.def Info: unrolled.png used on input line 437.
+ <use unrolled.png>
+Package pdftex.def Info: unrolled.png used on input line 446.
 (pdftex.def)             Requested size: 365.3625pt x 215.70439pt.
- [27 <./rnnmod.png> <./unrolled.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 449--451
+ [27 <./amzsp.png> <./rnnmod.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 458--460
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 449--451
+Underfull \hbox (badness 10000) in paragraph at lines 458--460
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 449--451
+Underfull \hbox (badness 10000) in paragraph at lines 458--460
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 449--451
+Underfull \hbox (badness 10000) in paragraph at lines 458--460
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 449--451
+Underfull \hbox (badness 10000) in paragraph at lines 458--460
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 449--451
+Underfull \hbox (badness 10000) in paragraph at lines 458--460
 
  []
 
-<lstms1.png, id=736, 338.26375pt x 208.78pt>
+<lstms1.png, id=745, 338.26375pt x 208.78pt>
 File: lstms1.png Graphic file (type png)
  <use lstms1.png>
-Package pdftex.def Info: lstms1.png used on input line 454.
+Package pdftex.def Info: lstms1.png used on input line 463.
 (pdftex.def)             Requested size: 236.78299pt x 146.14497pt.
 
-<lstms2.png, id=740, 368.37625pt x 218.8175pt>
+<lstms2.png, id=749, 368.37625pt x 218.8175pt>
 File: lstms2.png Graphic file (type png)
  <use lstms2.png>
-Package pdftex.def Info: lstms2.png used on input line 460.
+Package pdftex.def Info: lstms2.png used on input line 469.
 (pdftex.def)             Requested size: 257.8616pt x 153.17119pt.
 
-<cellupd.png, id=744, 350.30875pt x 220.825pt>
+<cellupd.png, id=753, 350.30875pt x 220.825pt>
 File: cellupd.png Graphic file (type png)
  <use cellupd.png>
-Package pdftex.def Info: cellupd.png used on input line 466.
+Package pdftex.def Info: cellupd.png used on input line 475.
 (pdftex.def)             Requested size: 245.21445pt x 154.57643pt.
 
-<lstm-out.png, id=748, 340.27126pt x 232.87pt>
+<lstm-out.png, id=757, 340.27126pt x 232.87pt>
 File: lstm-out.png Graphic file (type png)
  <use lstm-out.png>
-Package pdftex.def Info: lstm-out.png used on input line 472.
+Package pdftex.def Info: lstm-out.png used on input line 481.
 (pdftex.def)             Requested size: 238.18825pt x 163.00787pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 452--477
+Underfull \hbox (badness 10000) in paragraph at lines 461--486
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 452--477
+Underfull \hbox (badness 10000) in paragraph at lines 461--486
 
  []
 
 
-Overfull \hbox (15.06924pt too wide) in paragraph at lines 452--477
+Overfull \hbox (15.06924pt too wide) in paragraph at lines 461--486
 \T1/lmr/m/n/10.95 (-20) Secondly, al-ways at this level, a can-di-date cell sta
 te is built: $[] \OT1/lmr/m/n/10.95 (-20) = \OML/lmm/m/it/10.95 tanh []$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 452--477
+Underfull \hbox (badness 10000) in paragraph at lines 461--486
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 452--477
+Underfull \hbox (badness 10000) in paragraph at lines 461--486
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 452--477
+Underfull \hbox (badness 10000) in paragraph at lines 461--486
 
  []
 
-[28] [29 <./lstms1.png> <./lstms2.png>] [30 <./cellupd.png> <./lstm-out.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 492--493
+[28 <./unrolled.png>] [29 <./lstms1.png> <./lstms2.png>] [30 <./cellupd.png> <.
+/lstm-out.png>] [31]
+Underfull \hbox (badness 10000) in paragraph at lines 501--502
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--493
+Underfull \hbox (badness 10000) in paragraph at lines 501--502
 
  []
 
-[31]
-Underfull \hbox (badness 10000) in paragraph at lines 499--500
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--509
 
  []
 
-<encdecatt.png, id=795, 217.81375pt x 297.11pt>
+<encdecatt.png, id=802, 217.81375pt x 297.11pt>
 File: encdecatt.png Graphic file (type png)
  <use encdecatt.png>
-Package pdftex.def Info: encdecatt.png used on input line 504.
+Package pdftex.def Info: encdecatt.png used on input line 513.
 (pdftex.def)             Requested size: 108.9066pt x 148.55463pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 502--509
+Underfull \hbox (badness 10000) in paragraph at lines 511--518
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 502--509
+Underfull \hbox (badness 10000) in paragraph at lines 511--518
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 502--509
+Underfull \hbox (badness 10000) in paragraph at lines 511--518
 
  []
 
 [32]
-Underfull \hbox (badness 10000) in paragraph at lines 520--521
+Underfull \hbox (badness 10000) in paragraph at lines 529--530
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 520--521
+Underfull \hbox (badness 10000) in paragraph at lines 529--530
 
  []
 
-[33 <./encdecatt.png>] <mhsa.png, id=823, 375.4025pt x 372.39125pt>
+[33 <./encdecatt.png>] <mhsa.png, id=831, 375.4025pt x 372.39125pt>
 File: mhsa.png Graphic file (type png)
 
 <use mhsa.png>
-Package pdftex.def Info: mhsa.png used on input line 524.
+Package pdftex.def Info: mhsa.png used on input line 533.
 (pdftex.def)             Requested size: 262.77995pt x 260.67209pt.
- <transflay.png, id=826, 456.70625pt x 587.19376pt>
+ <transflay.png, id=834, 456.70625pt x 587.19376pt>
 File: transflay.png Graphic file (type png)
 
 <use transflay.png>
-Package pdftex.def Info: transflay.png used on input line 530.
+Package pdftex.def Info: transflay.png used on input line 539.
 (pdftex.def)             Requested size: 456.70512pt x 587.19232pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 522--534
+Underfull \hbox (badness 10000) in paragraph at lines 531--543
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 522--534
+Underfull \hbox (badness 10000) in paragraph at lines 531--543
 
  []
 
-[34] <resnetfun.png, id=839, 377.41pt x 220.825pt>
+[34] <resnetfun.png, id=848, 377.41pt x 220.825pt>
 File: resnetfun.png Graphic file (type png)
  <use resnetfun.png>
-Package pdftex.def Info: resnetfun.png used on input line 539.
+Package pdftex.def Info: resnetfun.png used on input line 548.
 (pdftex.def)             Requested size: 264.1852pt x 154.57643pt.
 
-<degprob.png, id=845, 806.01125pt x 253.94875pt>
+<degprob.png, id=854, 806.01125pt x 253.94875pt>
 File: degprob.png Graphic file (type png)
  <use degprob.png>
-Package pdftex.def Info: degprob.png used on input line 545.
+Package pdftex.def Info: degprob.png used on input line 554.
 (pdftex.def)             Requested size: 564.20403pt x 177.76291pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--549
+Underfull \hbox (badness 10000) in paragraph at lines 546--558
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--549
+Underfull \hbox (badness 10000) in paragraph at lines 546--558
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--549
+Underfull \hbox (badness 10000) in paragraph at lines 546--558
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--549
+Underfull \hbox (badness 10000) in paragraph at lines 546--558
 
  []
 
@@ -1248,20 +1248,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 537--549
 Underfull \vbox (badness 1902) has occurred while \output is active []
 
  [36 <./transflay.png>] [37 <./resnetfun.png> <./degprob.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 556--557
+Underfull \hbox (badness 10000) in paragraph at lines 565--566
 
  []
 
-<cmplink.png, id=872, 967.615pt x 575.14874pt>
+<cmplink.png, id=881, 967.615pt x 575.14874pt>
 File: cmplink.png Graphic file (type png)
  <use cmplink.png>
-Package pdftex.def Info: cmplink.png used on input line 563.
+Package pdftex.def Info: cmplink.png used on input line 572.
 (pdftex.def)             Requested size: 677.3259pt x 402.60138pt.
 
-<eulermethod.png, id=874, 355.3275pt x 244.915pt>
+<eulermethod.png, id=883, 355.3275pt x 244.915pt>
 File: eulermethod.png Graphic file (type png)
  <use eulermethod.png>
-Package pdftex.def Info: eulermethod.png used on input line 569.
+Package pdftex.def Info: eulermethod.png used on input line 578.
 (pdftex.def)             Requested size: 248.72754pt x 171.43932pt.
 
 [38] [39 <./cmplink.png> <./eulermethod.png>] [40
@@ -1269,363 +1269,366 @@ Package pdftex.def Info: eulermethod.png used on input line 569.
 ]
 Chapter 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 576--577
+Underfull \hbox (badness 10000) in paragraph at lines 585--586
 
  []
 
-<aamiimg.png, id=904, 1346.02875pt x 188.705pt>
+<aamiimg.png, id=913, 1346.02875pt x 188.705pt>
 File: aamiimg.png Graphic file (type png)
  <use aamiimg.png>
-Package pdftex.def Info: aamiimg.png used on input line 586.
+Package pdftex.def Info: aamiimg.png used on input line 595.
 (pdftex.def)             Requested size: 942.21371pt x 132.09259pt.
 
-Overfull \hbox (30.79681pt too wide) in paragraph at lines 586--587
+Overfull \hbox (30.79681pt too wide) in paragraph at lines 595--596
  [][] 
  []
 
 [41] [42 <./aamiimg.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 643.
+(hyperref)                removing `\@ifnextchar' on input line 658.
 
-[43] <random-forest-before-after.png, id=955, 462.528pt x 346.896pt>
+[43] <random-forest-before-after.png, id=965, 462.528pt x 346.896pt>
 File: random-forest-before-after.png Graphic file (type png)
 
 <use random-forest-before-after.png>
-Package pdftex.def Info: random-forest-before-after.png used on input line 652.
+Package pdftex.def Info: random-forest-before-after.png used on input line 667.
 
 (pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
 
-<confusion-matrix-dwt-random-forest-paper.png, id=957, 462.528pt x 346.896pt>
+<confusion-matrix-dwt-random-forest-paper.png, id=967, 462.528pt x 346.896pt>
 File: confusion-matrix-dwt-random-forest-paper.png Graphic file (type png)
 
 <use confusion-matrix-dwt-random-forest-paper.png>
 Package pdftex.def Info: confusion-matrix-dwt-random-forest-paper.png used on i
-nput line 658.
+nput line 673.
 (pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 650--662
+Underfull \hbox (badness 10000) in paragraph at lines 665--677
 
  []
 
-<random-forest-no-aug.png, id=959, 462.528pt x 346.896pt>
+[44 <./random-forest-before-after.png>]
+<random-forest-no-aug.png, id=979, 462.528pt x 346.896pt>
 File: random-forest-no-aug.png Graphic file (type png)
 
 <use random-forest-no-aug.png>
-Package pdftex.def Info: random-forest-no-aug.png used on input line 666.
+Package pdftex.def Info: random-forest-no-aug.png used on input line 681.
 (pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
 
-<random-forest-smote.png, id=961, 462.528pt x 346.896pt>
+<random-forest-smote.png, id=981, 462.528pt x 346.896pt>
 File: random-forest-smote.png Graphic file (type png)
 
 <use random-forest-smote.png>
-Package pdftex.def Info: random-forest-smote.png used on input line 673.
+Package pdftex.def Info: random-forest-smote.png used on input line 688.
 (pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 663--678
+Underfull \hbox (badness 10000) in paragraph at lines 678--693
 
  []
 
-[44 <./random-forest-before-after.png>] [45 <./confusion-matrix-dwt-random-fore
-st-paper.png> <./random-forest-no-aug.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 680.
+(hyperref)                removing `\@ifnextchar' on input line 695.
 
-<svm-before-after.png, id=985, 462.528pt x 346.896pt>
+<svm-before-after.png, id=986, 462.528pt x 346.896pt>
 File: svm-before-after.png Graphic file (type png)
 
 <use svm-before-after.png>
-Package pdftex.def Info: svm-before-after.png used on input line 683.
+Package pdftex.def Info: svm-before-after.png used on input line 698.
 (pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 681--689
+Underfull \hbox (badness 10000) in paragraph at lines 696--704
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 681--689
+Underfull \hbox (badness 10000) in paragraph at lines 696--704
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 681--689
+Underfull \hbox (badness 10000) in paragraph at lines 696--704
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 681--689
+Underfull \hbox (badness 10000) in paragraph at lines 696--704
 
  []
 
-[46 <./random-forest-smote.png>]
-<confusion-matrix-linear-not-linear-no-aug-smaller-test.png, id=993, 462.528pt 
-x 346.896pt>
+[45 <./confusion-matrix-dwt-random-forest-paper.png>] [46 <./random-forest-no-a
+ug.png> <./random-forest-smote.png>]
+<confusion-matrix-linear-not-linear-no-aug-smaller-test.png, id=1003, 462.528pt
+ x 346.896pt>
 File: confusion-matrix-linear-not-linear-no-aug-smaller-test.png Graphic file (
 type png)
  <use confusion-matrix-linear-not-linear-no-aug-smaller-test.png>
 Package pdftex.def Info: confusion-matrix-linear-not-linear-no-aug-smaller-test
-.png used on input line 697.
+.png used on input line 712.
 (pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
 
-<confusion-matrix-linear-not-linear-adasyn-smaller-test.png, id=995, 462.528pt 
-x 346.896pt>
+<confusion-matrix-linear-not-linear-adasyn-smaller-test.png, id=1005, 462.528pt
+ x 346.896pt>
 File: confusion-matrix-linear-not-linear-adasyn-smaller-test.png Graphic file (
 type png)
  <use confusion-matrix-linear-not-linear-adasyn-smaller-test.png>
 Package pdftex.def Info: confusion-matrix-linear-not-linear-adasyn-smaller-test
-.png used on input line 703.
+.png used on input line 718.
 (pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 707.
+(hyperref)                removing `\@ifnextchar' on input line 722.
 
-<arch-cnn.png, id=1000, 302.12875pt x 558.085pt>
+<arch-cnn.png, id=1010, 302.12875pt x 558.085pt>
 File: arch-cnn.png Graphic file (type png)
  <use arch-cnn.png>
-Package pdftex.def Info: arch-cnn.png used on input line 710.
+Package pdftex.def Info: arch-cnn.png used on input line 726.
 (pdftex.def)             Requested size: 211.48868pt x 390.65685pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 708--715
+Underfull \hbox (badness 10000) in paragraph at lines 724--731
 
  []
 
 [47 <./svm-before-after.png>] [48 <./confusion-matrix-linear-not-linear-no-aug-
 smaller-test.png> <./confusion-matrix-linear-not-linear-adasyn-smaller-test.png
->] <cnn-no-data-aug.png, id=1021, 433.62pt x 289.08pt>
+>]
+Underfull \vbox (badness 2035) has occurred while \output is active []
+
+ [49 <./arch-cnn.png>] <cnn-no-data-aug.png, id=1040, 433.62pt x 289.08pt>
 File: cnn-no-data-aug.png Graphic file (type png)
 
 <use cnn-no-data-aug.png>
-Package pdftex.def Info: cnn-no-data-aug.png used on input line 722.
+Package pdftex.def Info: cnn-no-data-aug.png used on input line 738.
 (pdftex.def)             Requested size: 303.53192pt x 202.35461pt.
- <cnn-adasyn.png, id=1023, 433.62pt x 289.08pt>
+ <cnn-adasyn.png, id=1042, 433.62pt x 289.08pt>
 File: cnn-adasyn.png Graphic file (type png)
 
 <use cnn-adasyn.png>
-Package pdftex.def Info: cnn-adasyn.png used on input line 728.
+Package pdftex.def Info: cnn-adasyn.png used on input line 744.
 (pdftex.def)             Requested size: 303.53192pt x 202.35461pt.
- [49 <./arch-cnn.png>] [50 <./cnn-no-data-aug.png> <./cnn-adasyn.png>] <odetest
-wl.png, id=1045, 405.515pt x 366.36874pt>
+ [50 <./cnn-no-data-aug.png>] [51 <./cnn-adasyn.png>]
+<odetestwl.png, id=1072, 405.515pt x 366.36874pt>
 File: odetestwl.png Graphic file (type png)
-
-<use odetestwl.png>
-Package pdftex.def Info: odetestwl.png used on input line 764.
+ <use odetestwl.png>
+Package pdftex.def Info: odetestwl.png used on input line 781.
 (pdftex.def)             Requested size: 283.85855pt x 256.45636pt.
- <odetestada.png, id=1047, 405.515pt x 366.36874pt>
+
+<odetestada.png, id=1074, 405.515pt x 366.36874pt>
 File: odetestada.png Graphic file (type png)
-
-<use odetestada.png>
-Package pdftex.def Info: odetestada.png used on input line 770.
+ <use odetestada.png>
+Package pdftex.def Info: odetestada.png used on input line 787.
 (pdftex.def)             Requested size: 283.85855pt x 256.45636pt.
- <odelp.png, id=1050, 405.515pt x 366.36874pt>
+
+<odelp.png, id=1077, 405.515pt x 366.36874pt>
 File: odelp.png Graphic file (type png)
-
-<use odelp.png>
-Package pdftex.def Info: odelp.png used on input line 778.
+ <use odelp.png>
+Package pdftex.def Info: odelp.png used on input line 795.
 (pdftex.def)             Requested size: 283.85855pt x 256.45636pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 776--783
+Underfull \hbox (badness 10000) in paragraph at lines 793--800
 
  []
 
-[51] [52 <./odetestwl.png> <./odetestada.png>]
 <odedwt.png, id=1081, 405.515pt x 366.36874pt>
 File: odedwt.png Graphic file (type png)
  <use odedwt.png>
-Package pdftex.def Info: odedwt.png used on input line 786.
+Package pdftex.def Info: odedwt.png used on input line 803.
 (pdftex.def)             Requested size: 283.85855pt x 256.45636pt.
- [53 <./odelp.png>]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 807.
+ [52 <./odetestwl.png>] [53 <./odetestada.png> <./odelp.png>] [54 <./odedwt.png
+>]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 824.
 
- (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmtt.fd
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [54 <./odedwt.png>]
-Overfull \hbox (13.06421pt too wide) in paragraph at lines 810--811
+
+Overfull \hbox (13.06421pt too wide) in paragraph at lines 827--828
 \T1/lmr/m/n/10.95 (-20) The in-put needs to be three-dimensional with this stru
 c-ture: \T1/lmtt/m/n/10.95 (batch_size, timesteps,
  []
 
-<lstmt1.png, id=1103, 433.62pt x 289.08pt>
+<lstmt1.png, id=1109, 433.62pt x 289.08pt>
 File: lstmt1.png Graphic file (type png)
  <use lstmt1.png>
-Package pdftex.def Info: lstmt1.png used on input line 820.
+Package pdftex.def Info: lstmt1.png used on input line 837.
 (pdftex.def)             Requested size: 303.53192pt x 202.35461pt.
- [55 <./lstmt1.png>] <lstmt2.png, id=1115, 433.62pt x 289.08pt>
+ [55]
+<lstmt2.png, id=1127, 433.62pt x 289.08pt>
 File: lstmt2.png Graphic file (type png)
  <use lstmt2.png>
-Package pdftex.def Info: lstmt2.png used on input line 839.
+Package pdftex.def Info: lstmt2.png used on input line 856.
 (pdftex.def)             Requested size: 303.53192pt x 202.35461pt.
-
-<lstmt3.png, id=1117, 433.62pt x 289.08pt>
+ [56 <./lstmt1.png> <./lstmt2.png>] <lstmt3.png, id=1139, 433.62pt x 289.08pt>
 File: lstmt3.png Graphic file (type png)
  <use lstmt3.png>
-Package pdftex.def Info: lstmt3.png used on input line 855.
+Package pdftex.def Info: lstmt3.png used on input line 872.
 (pdftex.def)             Requested size: 303.53192pt x 202.35461pt.
- [56 <./lstmt2.png>] <lstmat1.png, id=1135, 433.62pt x 289.08pt>
+
+<lstmat1.png, id=1141, 433.62pt x 289.08pt>
 File: lstmat1.png Graphic file (type png)
  <use lstmat1.png>
-Package pdftex.def Info: lstmat1.png used on input line 871.
+Package pdftex.def Info: lstmat1.png used on input line 889.
 (pdftex.def)             Requested size: 303.53192pt x 202.35461pt.
 
-<lstmat2.png, id=1137, 433.62pt x 289.08pt>
+<lstmat2.png, id=1143, 433.62pt x 289.08pt>
 File: lstmat2.png Graphic file (type png)
  <use lstmat2.png>
-Package pdftex.def Info: lstmat2.png used on input line 877.
+Package pdftex.def Info: lstmat2.png used on input line 895.
 (pdftex.def)             Requested size: 303.53192pt x 202.35461pt.
 
-<lstmatcnn.png, id=1140, 433.62pt x 289.08pt>
+<lstmatcnn.png, id=1146, 433.62pt x 289.08pt>
 File: lstmatcnn.png Graphic file (type png)
  <use lstmatcnn.png>
-Package pdftex.def Info: lstmatcnn.png used on input line 883.
+Package pdftex.def Info: lstmatcnn.png used on input line 901.
 (pdftex.def)             Requested size: 303.53192pt x 202.35461pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 868--888
+Underfull \hbox (badness 10000) in paragraph at lines 886--906
 
  []
 
 [57 <./lstmt3.png>] [58 <./lstmat1.png> <./lstmat2.png>]
-<lstmat3.png, id=1166, 313.17pt x 279.0425pt>
+<lstmat3.png, id=1174, 313.17pt x 279.0425pt>
 File: lstmat3.png Graphic file (type png)
  <use lstmat3.png>
-Package pdftex.def Info: lstmat3.png used on input line 907.
+Package pdftex.def Info: lstmat3.png used on input line 925.
 (pdftex.def)             Requested size: 219.21748pt x 195.3284pt.
- [59 <./lstmatcnn.png>] <transf.png, id=1182, 433.62pt x 289.08pt>
+ [59 <./lstmatcnn.png>] <transf.png, id=1190, 433.62pt x 289.08pt>
 File: transf.png Graphic file (type png)
  <use transf.png>
-Package pdftex.def Info: transf.png used on input line 927.
+Package pdftex.def Info: transf.png used on input line 946.
 (pdftex.def)             Requested size: 303.53192pt x 202.35461pt.
+ [60 <./lstmat3.png>]
+Underfull \vbox (badness 6063) has occurred while \output is active []
 
-<fscore.png, id=1183, 527.9725pt x 361.35pt>
-File: fscore.png Graphic file (type png)
- <use fscore.png>
-Package pdftex.def Info: fscore.png used on input line 933.
-(pdftex.def)             Requested size: 369.57823pt x 252.94327pt.
- [60 <./lstmat3.png>] [61 <./transf.png> <./fscore.png>]
-<patient222.png, id=1204, 462.528pt x 346.896pt>
+ [61 <./transf.png>] <patient222.png, id=1227, 462.528pt x 346.896pt>
 File: patient222.png Graphic file (type png)
  <use patient222.png>
-Package pdftex.def Info: patient222.png used on input line 955.
+Package pdftex.def Info: patient222.png used on input line 1039.
 (pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
 
-<patient223.png, id=1205, 462.528pt x 346.896pt>
+<patient223.png, id=1228, 462.528pt x 346.896pt>
 File: patient223.png Graphic file (type png)
  <use patient223.png>
-Package pdftex.def Info: patient223.png used on input line 960.
+Package pdftex.def Info: patient223.png used on input line 1044.
 (pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
 
-<patient233.png, id=1206, 462.528pt x 346.896pt>
+<patient233.png, id=1229, 462.528pt x 346.896pt>
 File: patient233.png Graphic file (type png)
  <use patient233.png>
-Package pdftex.def Info: patient233.png used on input line 965.
+Package pdftex.def Info: patient233.png used on input line 1049.
 (pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
 
-<patient222-transfer-learn.png, id=1210, 462.528pt x 346.896pt>
+<patient222-transfer-learn.png, id=1233, 462.528pt x 346.896pt>
 File: patient222-transfer-learn.png Graphic file (type png)
 
 <use patient222-transfer-learn.png>
-Package pdftex.def Info: patient222-transfer-learn.png used on input line 972.
+Package pdftex.def Info: patient222-transfer-learn.png used on input line 1056.
+
 (pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
 
-<patient223-transfer-learn.png, id=1211, 462.528pt x 346.896pt>
+<patient223-transfer-learn.png, id=1234, 462.528pt x 346.896pt>
 File: patient223-transfer-learn.png Graphic file (type png)
 
 <use patient223-transfer-learn.png>
-Package pdftex.def Info: patient223-transfer-learn.png used on input line 977.
+Package pdftex.def Info: patient223-transfer-learn.png used on input line 1061.
+
 (pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
 
-<patient233-transfer-learn.png, id=1212, 462.528pt x 346.896pt>
+<patient233-transfer-learn.png, id=1235, 462.528pt x 346.896pt>
 File: patient233-transfer-learn.png Graphic file (type png)
 
 <use patient233-transfer-learn.png>
-Package pdftex.def Info: patient233-transfer-learn.png used on input line 982.
+Package pdftex.def Info: patient233-transfer-learn.png used on input line 1066.
+
 (pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
 
-<patient222-transfer-learn-nontrainable.png, id=1216, 462.528pt x 346.896pt>
+<patient222-transfer-learn-nontrainable.png, id=1239, 462.528pt x 346.896pt>
 File: patient222-transfer-learn-nontrainable.png Graphic file (type png)
 
 <use patient222-transfer-learn-nontrainable.png>
 Package pdftex.def Info: patient222-transfer-learn-nontrainable.png used on inp
-ut line 989.
+ut line 1073.
 (pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
 
-<patient223-transfer-learn-nontrainable.png, id=1217, 462.528pt x 346.896pt>
+<patient223-transfer-learn-nontrainable.png, id=1240, 462.528pt x 346.896pt>
 File: patient223-transfer-learn-nontrainable.png Graphic file (type png)
 
 <use patient223-transfer-learn-nontrainable.png>
 Package pdftex.def Info: patient223-transfer-learn-nontrainable.png used on inp
-ut line 994.
+ut line 1078.
 (pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
 
-<patient233-transfer-learn-nontrainable.png, id=1218, 462.528pt x 346.896pt>
+<patient233-transfer-learn-nontrainable.png, id=1241, 462.528pt x 346.896pt>
 File: patient233-transfer-learn-nontrainable.png Graphic file (type png)
 
 <use patient233-transfer-learn-nontrainable.png>
 Package pdftex.def Info: patient233-transfer-learn-nontrainable.png used on inp
-ut line 999.
+ut line 1083.
 (pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
- [62 <./patient222.png>]
-[63 <./patient223.png> <./patient233.png>] [64 <./patient222-transfer-learn.png
-> <./patient223-transfer-learn.png>] [65 <./patient233-transfer-learn.png> <./p
-atient222-transfer-learn-nontrainable.png>] [66 <./patient223-transfer-learn-no
-ntrainable.png> <./patient233-transfer-learn-nontrainable.png>]
+ [62] [63 <./patient222.png> <./patient223.png>] [64 <./patient233.png>] [65 <.
+/patient222-transfer-learn.png> <./patient223-transfer-learn.png>] [66 <./patie
+nt233-transfer-learn.png> <./patient222-transfer-learn-nontrainable.png>] [67 <
+./patient223-transfer-learn-nontrainable.png> <./patient233-transfer-learn-nont
+rainable.png>] [68
+
+]
 Chapter 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1004--1005
+Underfull \hbox (badness 10000) in paragraph at lines 1091--1092
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1004--1005
+Underfull \hbox (badness 10000) in paragraph at lines 1091--1092
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1004--1005
+Underfull \hbox (badness 10000) in paragraph at lines 1091--1092
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1004--1005
+Underfull \hbox (badness 10000) in paragraph at lines 1091--1092
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1004--1005
+Underfull \hbox (badness 10000) in paragraph at lines 1091--1092
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1004--1005
+Underfull \hbox (badness 10000) in paragraph at lines 1091--1092
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1004--1005
+Underfull \hbox (badness 10000) in paragraph at lines 1091--1092
 
  []
 
 
 Underfull \vbox (badness 6078) has occurred while \output is active []
 
- [67
-
-]
-[68] [69] [70
+ [69]
+[70] [71] [72
 
 ] (./LaureaMagistrale_eng.bbl
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
- [71
+ [73
 
 
-] [72]
+] [74]
 Underfull \hbox (badness 2990) in paragraph at lines 224--228
 []\T1/lmr/m/sc/10.95 (+20) MathWorks\T1/lmr/m/n/10.95 (+20) .  Con-tin-u-ous wa
 velet trans-form and scale-based anal-
@@ -1649,7 +1652,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 235--239
 . int / news-[]room / fact-[]sheets / detail /
  []
 
-[73]
+[75]
 Underfull \hbox (badness 1728) in paragraph at lines 264--268
 []\T1/lmr/m/sc/10.95 (+20) stackoverflow\T1/lmr/m/n/10.95 (+20) .  What is the 
 num-ber of fil-ter in cnn?  Avail-
@@ -1674,22 +1677,22 @@ Underfull \hbox (badness 2334) in paragraph at lines 270--274
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1014.
- [74]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1014.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1101.
+ [76]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1101.
  (./LaureaMagistrale_eng.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1014.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1014.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1101.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1101.
 
 Package rerunfilecheck Info: File `LaureaMagistrale_eng.out' has not changed.
-(rerunfilecheck)             Checksum: 17ACFF6D92306BB4AD3397C142F29913;3941.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1014.
+(rerunfilecheck)             Checksum: 89D558D6AC8A618144ECA582866A9998;3996.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1101.
  ) 
 Here is how much of TeX's memory you used:
- 12021 strings out of 492995
- 183313 string characters out of 6132704
- 417579 words of memory out of 5000000
- 14661 multiletter control sequences out of 15000+600000
+ 12042 strings out of 492995
+ 183538 string characters out of 6132704
+ 418149 words of memory out of 5000000
+ 14667 multiletter control sequences out of 15000+600000
  121889 words of font info for 178 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,15n,94p,6615b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1718,10 +1721,10 @@ texlive/2017/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/20
 ist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
 ype1/public/lm/lmsy8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public
 /lm/lmtt10.pfb>
-Output written on LaureaMagistrale_eng.pdf (84 pages, 6789276 bytes).
+Output written on LaureaMagistrale_eng.pdf (86 pages, 6644524 bytes).
 PDF statistics:
- 1550 PDF objects out of 1728 (max. 8388607)
- 1270 compressed objects within 13 object streams
- 446 named destinations out of 1000 (max. 500000)
- 31021 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 1586 PDF objects out of 1728 (max. 8388607)
+ 1305 compressed objects within 14 object streams
+ 462 named destinations out of 1000 (max. 500000)
+ 31024 words of extra memory for PDF output out of 35830 (max. 10000000)
 
